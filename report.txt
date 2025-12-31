@@ -31,6 +31,9 @@ Visual Explorer Maps
 	TQNL -> trial chambers
 Visual Max-Stage Kelp+Vines
 	Hozz
+UniquePaintingItems
+	textures: HARYA_
+	everything else: vanillatweaks
 
 ## My Add-ons, inspired by Vanilla Tweaks
 AllConsistentBucketTextures
