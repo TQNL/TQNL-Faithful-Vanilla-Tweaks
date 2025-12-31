@@ -1,19 +1,21 @@
 {
     "pack": {
         "pack_format": 34,
-		"supported_formats": [34, 64],
+        "min_format": 34,
+        "max_format": 75,
+        "supported_formats": { "min_inclusive": 34, "max_inclusive": 75 },
         "description": "TQNL's compilation of 32x vanillatweaks.net and faithfulpack.net/addons"
     },
-	"overlays": {
-		"entries": [
-			{
-				"formats": {"min_inclusive": 42, "max_inclusive": 999999},
-				"directory": "overlay_42"
-			},
-			{
-				"formats": {"min_inclusive": 46, "max_inclusive": 999999},
-				"directory": "overlay_46"
-			}
-		]
-	}
+    "overlays": {
+        "entries": [
+            {
+                "formats": { "min_inclusive": 42, "max_inclusive": 999999 },
+                "directory": "overlay_42"
+            },
+            {
+                "formats": { "min_inclusive": 46, "max_inclusive": 999999 },
+                "directory": "overlay_46"
+            }
+        ]
+    }
 }
