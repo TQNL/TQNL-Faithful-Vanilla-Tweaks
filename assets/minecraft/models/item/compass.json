@@ -4,7 +4,7 @@
         "layer0": "item/compass_16"
     },
     "overrides": [
-        { "predicate": { "angle": 0.000000 }, "model": "item/compass" },
+        { "predicate": { "angle": 0.000000 }, "model": "item/compass_16" },
         { "predicate": { "angle": 0.015625 }, "model": "item/compass_17" },
         { "predicate": { "angle": 0.046875 }, "model": "item/compass_18" },
         { "predicate": { "angle": 0.078125 }, "model": "item/compass_19" },
@@ -36,6 +36,6 @@
         { "predicate": { "angle": 0.890625 }, "model": "item/compass_13" },
         { "predicate": { "angle": 0.921875 }, "model": "item/compass_14" },
         { "predicate": { "angle": 0.953125 }, "model": "item/compass_15" },
-        { "predicate": { "angle": 0.984375 }, "model": "item/compass" }
+        { "predicate": { "angle": 0.984375 }, "model": "item/compass_16" }
     ]
 }
