@@ -1,0 +1,6 @@
+{
+    "parent": "item/_parent_bowl_smaller_util",
+    "textures": {
+        "layer0": "item/bowl"
+    }
+}

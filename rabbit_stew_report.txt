@@ -1,0 +1,4 @@
+in vanilla, the rabbit stew texture sits 1 pixel lower than other bowls.
+- The vanilla version of this recourse pack fixes that
+- This is the version where the fixed texture isn't imposed, 
+	so other recourse packs can impose their rabbit stew texture

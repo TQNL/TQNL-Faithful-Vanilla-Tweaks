@@ -1,0 +1,4 @@
+SmallerUtilities + ItemHoldFix + NoBowlParticles = RefinedUtilities
+This pack is makes the three fully compatible
+
+This pack doesn't use textures, only models, making it compatible with all recourse packs, including all Faithful Project Recourse Packs. Utilities appear smaller when holding, appear correctly attached to the hands in third person or from the outside, and bowl particles don't appear when eating from a bowl.

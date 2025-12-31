@@ -1,0 +1,55 @@
+# credit:
+https://faithfulpack.net/
+vanillatweaks.net
+
+# packs:
+## other's Add-ons:
+
+requires continuity for (ctm) for powder snow
+requires CITResewn for (cit) custom item texture packs
+
+Big Dripleaf Fix
+	Fred figglehorn
+Directional Dropper+Dispenser
+	Hozz
+Directional Hopper+Bottom Fix
+	Hozz
+	updated by TQNL
+Unique Goat Horns
+	Scutoel
+Lower Fire
+	Justieboy3
+Powder Snow Detector
+	hedach761
+Splash Experience Bottle
+	outiser
+Sticky Piston Sides
+	Hozz
+Visual Explorer Maps
+	Harag0n
+	SnowyBoi64
+	TQNL -> trial chambers
+Visual Max-Stage Kelp+Vines
+	Hozz
+
+## My Add-ons, inspired by Vanilla Tweaks
+AllConsistentBucketTextures
+ClearerWater
+ClearerWitherHearts
+DifferentStemsPrivateCreation
+DirectionalObserversPrivateCreation
+FancySunflowers
+GroovyLevers
+GroundSides
+NoteblockBanners
+PlainLeatherArmor
+RedIronGolemFlowers
+RefinedUtilitiesFaithful = SmallerUtilities + ItemHoldFix + NoBowlParticles
+SoulSoilSoulCampfire
+TechnoCrownPigs
+UnlitRedstoneOre
+UnobtrusiveScaffolding
+VisibleTripwires
+VisualHoneyStages
+VisualInfestedBlocks
+VisualWaxedCopperItems

@@ -1,0 +1,24 @@
+File Name: beetroot_soup.json
+  - SmallerUtilities/assets\minecraft\models\item\beetroot_soup.json
+  - ItemHoldFix/assets\minecraft\models\item\beetroot_soup.json
+  - NoBowlParticles/assets\minecraft\models\item\beetroot_soup.json
+
+File Name: bowl.json
+  - SmallerUtilities/assets\minecraft\models\item\bowl.json
+  - ItemHoldFix/assets\minecraft\models\item\bowl.json
+
+File Name: mushroom_stew.json
+  - SmallerUtilities/assets\minecraft\models\item\mushroom_stew.json
+  - ItemHoldFix/assets\minecraft\models\item\mushroom_stew.json
+  - NoBowlParticles/assets\minecraft\models\item\mushroom_stew.json
+
+File Name: rabbit_stew.json
+  - SmallerUtilities/assets\minecraft\models\item\rabbit_stew.json
+  - ItemHoldFix/assets\minecraft\models\item\rabbit_stew.json
+  - NoBowlParticles/assets\minecraft\models\item\rabbit_stew.json
+
+File Name: suspicious_stew.json
+  - SmallerUtilities/assets\minecraft\models\item\suspicious_stew.json
+  - ItemHoldFix/assets\minecraft\models\item\suspicious_stew.json
+  - NoBowlParticles/assets\minecraft\models\item\suspicious_stew.json
+
