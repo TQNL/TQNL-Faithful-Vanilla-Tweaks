@@ -1,7 +1,35 @@
 {
-	"parent": "item/waxed_lightning_rod",
+	"format_version": "1.21.6",
+	"credit": "Created by Stridey",
+	"parent": "block/template_lightning_rod",
+	"texture_size": [32, 32],
 	"textures": {
-		"particle": "block/oxidized_lightning_rod",
-		"texture": "item/waxed_oxidized_lightning_rod"
-	}
+		"3": "item/waxed_oxidized_lightning_rod",
+		"particle": "block/oxidized_lightning_rod"
+	},
+	"elements": [
+		{
+			"from": [6, 12, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#3"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#3"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#3"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#3"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 12, 9],
+			"faces": {
+				"north": {"uv": [0, 4, 2, 16], "texture": "#3"},
+				"east": {"uv": [0, 4, 2, 16], "texture": "#3"},
+				"south": {"uv": [0, 4, 2, 16], "texture": "#3"},
+				"west": {"uv": [0, 4, 2, 16], "texture": "#3"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#3"}
+			}
+		}
+	]
 }
