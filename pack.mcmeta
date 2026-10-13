@@ -163,6 +163,21 @@
 				"min_format": 70,
 				"max_format": 75,
 				"directory": "overlay_70"
+			},
+			{
+			    "directory": "overlay_copper_26",
+			    "formats": {
+			        "min_inclusive": 84,
+			        "max_inclusive": 97
+			    },
+			    "min_format": [
+			        84,
+			        0
+			    ],
+			    "max_format": [
+			        97,
+			        1
+			    ]
 			}
 		]
 	}

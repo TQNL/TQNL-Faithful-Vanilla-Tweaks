@@ -1,0 +1,90 @@
+[
+  {
+    "version": "1.21.9",
+    "format": [
+      69,
+      0
+    ],
+    "completion_commit": "bd19eb9042843201ab4ff81a32303d33bcfe156e",
+    "completion_tag": "complete/mc-1.21.9",
+    "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+    "pack_tree_sha256": "dd564fddf49d001f584e9050a8c86520d518151fe92429f0a57cf1b2c6654d0a"
+  },
+  {
+    "version": "1.21.10",
+    "format": [
+      69,
+      0
+    ],
+    "completion_commit": "4f52120eea7475d444bcc3972374b6342e35540e",
+    "completion_tag": "complete/mc-1.21.10",
+    "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+    "pack_tree_sha256": "dd564fddf49d001f584e9050a8c86520d518151fe92429f0a57cf1b2c6654d0a"
+  },
+  {
+    "version": "1.21.11",
+    "format": [
+      75,
+      0
+    ],
+    "completion_commit": "12f2a6a50e2bb062c69d4b094d0c52c9bb1ec577",
+    "completion_tag": "complete/mc-1.21.11",
+    "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+    "pack_tree_sha256": "dd564fddf49d001f584e9050a8c86520d518151fe92429f0a57cf1b2c6654d0a"
+  },
+  {
+    "version": "26.1",
+    "format": [
+      84,
+      0
+    ],
+    "completion_commit": "0a179c2b4836dbb46be859ff035dd6ca22839587",
+    "completion_tag": "complete/mc-26.1",
+    "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+    "pack_tree_sha256": "115082322a5175b14d341b62237245e2a278ce5f356b6cb6a9cbe6f1d94d7328"
+  },
+  {
+    "version": "26.1.1",
+    "format": [
+      84,
+      0
+    ],
+    "completion_commit": "7a5139dc5782e05b799c5b7304249ee5e0573172",
+    "completion_tag": "complete/mc-26.1.1",
+    "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+    "pack_tree_sha256": "115082322a5175b14d341b62237245e2a278ce5f356b6cb6a9cbe6f1d94d7328"
+  },
+  {
+    "version": "26.1.2",
+    "format": [
+      84,
+      0
+    ],
+    "completion_commit": "b3b4fb81485487374e9af2053e2cf39f35f05225",
+    "completion_tag": "complete/mc-26.1.2",
+    "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+    "pack_tree_sha256": "115082322a5175b14d341b62237245e2a278ce5f356b6cb6a9cbe6f1d94d7328"
+  },
+  {
+    "version": "26.2",
+    "format": [
+      88,
+      0
+    ],
+    "completion_commit": "a0d3b9e9edeeeaf5edb9985a458c7ae60c02b896",
+    "completion_tag": "complete/mc-26.2",
+    "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+    "pack_tree_sha256": "b3b6be9b860711bba58520a7f63c989b834d67ceba5e628d5e764f8b1b27b081"
+  },
+  {
+    "version": "26.3",
+    "format": [
+      97,
+      1
+    ],
+    "completion_commit": "b7c48f0d7a06c49f3accd4d2eabef64be8baa108",
+    "completion_tag": "complete/mc-26.3",
+    "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+    "pack_tree_sha256": "2b05f6441e028c9da64cf2b4259dd5dd19728debb9884dd5d06f36ef34c0eb92"
+  }
+]

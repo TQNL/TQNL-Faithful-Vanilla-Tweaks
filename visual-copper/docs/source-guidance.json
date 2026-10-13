@@ -1,0 +1,48 @@
+{
+  "scope": "Inspection only; no images edited, no Minecraft launched, no publication performed.",
+  "portable_provenance": "provenance-distribution.json",
+  "official_license_page": "https://faithfulpack.net/license",
+  "licenses": {
+    "v4": {
+      "applies_to_archives": "All selected Faithful 32x September2026 exports and Faithful64x Release15.",
+      "requirements": [
+        "Give obvious clear Faithful credit.",
+        "Provide a clearly visible link to https://faithfulpack.net.",
+        "State the specific pack and content used or modified honestly.",
+        "Use only needed assets; consider an overlay add-on if mostly unmodified textures.",
+        "Include the unmodified license file or a link to https://faithfulpack.net/license with each distribution."
+      ],
+      "restrictions": [
+        "No paywalls, Marketplace distribution or Patreon/Ko-fi access gates.",
+        "No monetized download links or link shorteners. Listing reward systems are allowed only when mostly original content; avoid them for simple edits.",
+        "Do not make Faithful-based content the basis or main reason for donations.",
+        "No use as a substitute for Minecraft graphics where Mojang would disallow default textures.",
+        "No misleading official branding or endorsement.",
+        "No cryptocurrency or NFT projects.",
+        "No neural-network or AI-model training."
+      ],
+      "private_exception": "Requirements are waived for exclusively personal edits, compilations, add-ons and small private Minecraft server packs.",
+      "source_code_requirement": "V4 does not impose a general source-code publication requirement."
+    },
+    "v3": {
+      "applies_to_archives": "Faithful64x Releases11,12,13,14 ship Version3,20February2023.",
+      "requirements": [
+        "Clear credit, visible Faithful website link and specific honest attribution.",
+        "Do not monetize content, paywall access or download links. Voluntary donations are allowed within the stated non-profiting caveat.",
+        "Do not use misleading official branding.",
+        "Include the original unmodified V3 license file with content using these assets."
+      ],
+      "private_exception": "Requirements are waived for private or undistributed edits/add-ons.",
+      "preservation": "Keep the unmodified V3 copy when deriving from Releases11–14. Current V4 copies are also retained; no assumption silently replaces archived terms."
+    }
+  },
+  "custom_layouts": {
+    "stairs1_stairs2_double1_double2": "The16x VT sheets retain native cut_copper pixels at the same coordinates; every changed pixel uses a new wax color. Begin with matching native Faithful cut_copper, then apply each sheet's own wax mask. UVs differ by face but source base coordinates need no rearrangement.",
+    "trapdoor_side": "The model reads only uv[0,3,16,0],the first3 rows of the16x sheet,for all four sides. Those rendered rows retain native copper_trapdoor base coordinates; differences are wax pixels. Lower unused rows are custom native-color variations and should not be mistaken for a separate missing Faithful source.",
+    "lightning_rod": "All eight client JARs confirm matching native and VT geometry/head UVs, but custom shaft and bottom-cap UVs. Native shaft UV[0,4,2,16] becomes VT north/south UV[2,4,4,16]; native cap UV[0,4,2,6] becomes VT UV[4,0,6,2]. Assemble these Faithful source strips into the VT destinations at the final scale, then add wax. The original 16x VT texture exposes native column 0 copied into destination column 2 for rows 4–14; remaining cells in the remapped destinations are covered by original wax. A raw block/lightning_rod copy would lose this custom UV source placement.",
+    "door_outline": "VT26.x has a48x32 texture made of six16x16 tile positions,with opaque pixel counts46,73,20,46,67,0. It is not a native item/copper_door sheet. No referencing JSON or mcmeta was found in the complete accepted pack or26.3 upstream. Preserve/reconstruct the composite as its own asset; do not substitute a single Faithful door texture over its full canvas."
+  },
+  "alpha_preservation": "Across all eight clients, cropping Faithful textures to a nearest-neighbor vanilla alpha footprint would remove original Faithful pixels from all four grates, chains, doors and lanterns. Preserve the official source alpha and clip gold masks to that alpha. Detailed counts and exact client JAR identities are in native-layout-alpha-audit.json.",
+  "source_policy": "Use newest official stable release per client family: 32x September 2026 exports and 64x Releases 11–15. Archive/PNG hashes identify source pixels; API contribution metadata identifies artist attribution without proving contribution-ID-to-PNG identity.",
+  "completeness": "52 unique native source textures cover 72 waxed VT texture targets in 1.21.x and 73 in 26.x. All are present at native 32x and 64x. Entity chest/golem atlases are 128x128 in 32x and 256x256 in 64x. There was no 32x-to64x upscaling."
+}

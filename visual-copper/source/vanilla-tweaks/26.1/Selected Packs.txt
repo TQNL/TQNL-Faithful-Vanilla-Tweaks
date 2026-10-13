@@ -1,0 +1,4 @@
+Vanilla Tweaks Resource Pack
+Version: 26.1
+Packs:
+	VisualWaxedCopperItems

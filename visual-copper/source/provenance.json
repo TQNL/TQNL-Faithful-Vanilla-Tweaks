@@ -1,0 +1,1591 @@
+{
+  "schema": 1,
+  "acquired_at": "2026-10-13T22:36:49.894497+00:00",
+  "target_clients": [
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3"
+  ],
+  "sources": [
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "mapped_clients": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "filename": "faithful-32x-september2026-mc-1.21.10.zip",
+      "url": "https://database.faithfulpack.net/packs/32x-Java/September%202026/Faithful%2032x%20-%201.21.10.zip",
+      "release_name": "Faithful 32x \u2013 September 2026 Release",
+      "release_ref": "september-2026-release",
+      "release_published_at": "2026-09-15T17:47:44Z",
+      "release_url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/releases/tag/september-2026-release",
+      "sha256": "6153d21525206c350db32336bd3b4bfbdb70587e341688a779de24a0d93c03eb",
+      "bytes": 6054014,
+      "license_file": "Faithful-32x-License-v4.txt"
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "mapped_clients": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "filename": "faithful-64x-release-11-mc-1.21.10.zip",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/YVr5XH0b/Faithful%2064x%20-%20September%202025%20Release.zip",
+      "release_name": "Faithful 64x - Release 11",
+      "release_ref": "Release-11",
+      "release_published_at": "2025-09-30T16:10:56.293545Z",
+      "release_url": "https://modrinth.com/resourcepack/faithful-64x/version/YVr5XH0b",
+      "sha256": "3e49ac823a44c92fa22d2dfec714f0ba7ddff19f6c0525f69c21897c8d926a59",
+      "bytes": 16018496,
+      "license_file": "Faithful-64x-License-v3.txt"
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "mapped_clients": [
+        "1.21.11"
+      ],
+      "filename": "faithful-32x-september2026-mc-1.21.11.zip",
+      "url": "https://database.faithfulpack.net/packs/32x-Java/September%202026/Faithful%2032x%20-%201.21.11.zip",
+      "release_name": "Faithful 32x \u2013 September 2026 Release",
+      "release_ref": "september-2026-release",
+      "release_published_at": "2026-09-15T17:47:44Z",
+      "release_url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/releases/tag/september-2026-release",
+      "sha256": "4a72f0b3c65ecdf3efb1e6ded35377483666c2cd0c1cba4b4714b14e50bcdee1",
+      "bytes": 10153674,
+      "license_file": "Faithful-32x-License-v4.txt"
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "mapped_clients": [
+        "1.21.11"
+      ],
+      "filename": "faithful-64x-release-12-mc-1.21.11.zip",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/vyty9ijM/Faithful%2064x%20-%20December%202025%20Release.zip",
+      "release_name": "Faithful 64x - December 2025 Release",
+      "release_ref": "Release-12",
+      "release_published_at": "2025-12-09T16:09:08.567510Z",
+      "release_url": "https://modrinth.com/resourcepack/faithful-64x/version/vyty9ijM",
+      "sha256": "a136d9101a4748558587980dace3cd7447b758fb72c4684d15fb805d0a812dac",
+      "bytes": 16053919,
+      "license_file": "Faithful-64x-License-v3.txt"
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "mapped_clients": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "filename": "faithful-32x-september2026-mc-26.1.zip",
+      "url": "https://database.faithfulpack.net/packs/32x-Java/September%202026/Faithful%2032x%20-%2026.1.zip",
+      "release_name": "Faithful 32x \u2013 September 2026 Release",
+      "release_ref": "september-2026-release",
+      "release_published_at": "2026-09-15T17:47:44Z",
+      "release_url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/releases/tag/september-2026-release",
+      "sha256": "1e8d2be604b3d57336d5cd0f413eec6b3b60950bcb597f8d4160dc6d06f89fea",
+      "bytes": 12032772,
+      "license_file": "Faithful-32x-License-v4.txt"
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "mapped_clients": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "filename": "faithful-64x-release-13-mc-26.1.zip",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/yjAqtxxY/Faithful%2064x%20-%20Release%2013.zip",
+      "release_name": "Faithful 64x - Release 13",
+      "release_ref": "Release-13",
+      "release_published_at": "2026-03-24T17:02:09.977535Z",
+      "release_url": "https://modrinth.com/resourcepack/faithful-64x/version/yjAqtxxY",
+      "sha256": "9a8aaf717f81661da4507fedadcae963b15c7ac876f211bc5aa789a279d1e0d1",
+      "bytes": 18343100,
+      "license_file": "Faithful-64x-License-v3.txt"
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "mapped_clients": [
+        "26.2"
+      ],
+      "filename": "faithful-32x-september2026-mc-26.2.zip",
+      "url": "https://database.faithfulpack.net/packs/32x-Java/September%202026/Faithful%2032x%20-%2026.2.zip",
+      "release_name": "Faithful 32x \u2013 September 2026 Release",
+      "release_ref": "september-2026-release",
+      "release_published_at": "2026-09-15T17:47:44Z",
+      "release_url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/releases/tag/september-2026-release",
+      "sha256": "266695e70662725b4bc1d63724958129a030462c87befad41ea47dbb0594ad88",
+      "bytes": 10470024,
+      "license_file": "Faithful-32x-License-v4.txt"
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "mapped_clients": [
+        "26.2"
+      ],
+      "filename": "faithful-64x-release-14-chaos-cubed-mc-26.2.zip",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/AOqbBNcY/Faithful%2064x%20-%20Release%2014.zip",
+      "release_name": "Faithful 64x - Release 14 (Chaos Cubed)",
+      "release_ref": "Release-14-Chaos-Cubed",
+      "release_published_at": "2026-06-16T15:42:17.834592Z",
+      "release_url": "https://modrinth.com/resourcepack/faithful-64x/version/AOqbBNcY",
+      "sha256": "822dae4460637663bdccec7b1b2a523f2c7017a2051f77a83ce5eed2dda75dc9",
+      "bytes": 15357404,
+      "license_file": "Faithful-64x-License-v3.txt"
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "mapped_clients": [
+        "26.3"
+      ],
+      "filename": "faithful-32x-september2026-mc-26.3.zip",
+      "url": "https://database.faithfulpack.net/packs/32x-Java/September%202026/Faithful%2032x%20-%2026.3.zip",
+      "release_name": "Faithful 32x \u2013 September 2026 Release",
+      "release_ref": "september-2026-release",
+      "release_published_at": "2026-09-15T17:47:44Z",
+      "release_url": "https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/releases/tag/september-2026-release",
+      "sha256": "596035002e8c369ca673b5b922cd532a38a2aaabe80f317f5ac4d5c7680c7bf2",
+      "bytes": 13116019,
+      "license_file": "Faithful-32x-License-v4.txt"
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "mapped_clients": [
+        "26.3"
+      ],
+      "filename": "faithful-64x-release-15-wilderness-bound-drop-mc-26.3.zip",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/6QfM0mZq/Faithful%2064x%20-%20Release%2015.zip",
+      "release_name": "Faithful 64x: Release 15 (Wilderness Bound Drop)",
+      "release_ref": "Release-15-Wilderness-Bound-Drop",
+      "release_published_at": "2026-09-15T17:26:12.276217Z",
+      "release_url": "https://modrinth.com/resourcepack/faithful-64x/version/6QfM0mZq",
+      "sha256": "b97da00361427e0ee815383c1c95ff1ba152b9662e6757d753c0f97c9bbdbe8f",
+      "bytes": 19411638,
+      "license_file": "Faithful-64x-License-v4.txt"
+    }
+  ],
+  "licenses": [
+    {
+      "file": "Faithful-32x-License-v4.txt",
+      "sha256": "3526ffe2fc0bdb57ec9fdf227f7de72cb15df9ccc940f79d2e60bafe5d3254c6",
+      "original_archive_license_path": "LICENSE.txt",
+      "original_archive_family": "32x-26.3"
+    },
+    {
+      "file": "Faithful-64x-License-v4.txt",
+      "sha256": "2372ea06caf924814957338d37ec4a0ebad58dabf415bba961429050df70b3bc",
+      "original_archive_license_path": "LICENSE.txt",
+      "original_archive_family": "64x-26.3"
+    },
+    {
+      "file": "Faithful-64x-License-v3.txt",
+      "sha256": "0c0c209d4e1dfe283ce7c6f2af3366a6d4b1bc5d6735c6068f58a11b867dc087",
+      "original_archive_license_path": "LICENSE.txt",
+      "original_archive_family": "64x-26.1"
+    }
+  ],
+  "source_coverage": {
+    "unique_native_source_textures": 52,
+    "missing_assets": [],
+    "vt_target_count_by_family": {
+      "1.21.x": 72,
+      "26.x": 73
+    },
+    "32x_equivalence": "All52 required textures are byte-identical across selected family archives after copper golem identifiers are normalized.",
+    "64x_equivalence": [
+      {
+        "resolution": 64,
+        "family": "1.21.10",
+        "compared_to": "26.3",
+        "required_native_assets_count": 52,
+        "common_count": 52,
+        "different_hash_count": 30,
+        "different_hash_paths": [
+          "assets/minecraft/textures/block/cut_copper.png",
+          "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+          "assets/minecraft/textures/block/exposed_copper.png",
+          "assets/minecraft/textures/block/exposed_copper_bulb.png",
+          "assets/minecraft/textures/block/exposed_copper_grate.png",
+          "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+          "assets/minecraft/textures/block/exposed_cut_copper.png",
+          "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+          "assets/minecraft/textures/block/oxidized_cut_copper.png",
+          "assets/minecraft/textures/block/weathered_copper.png",
+          "assets/minecraft/textures/block/weathered_copper_bulb.png",
+          "assets/minecraft/textures/block/weathered_copper_grate.png",
+          "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+          "assets/minecraft/textures/block/weathered_cut_copper.png",
+          "assets/minecraft/textures/entity/chest/copper.png",
+          "assets/minecraft/textures/entity/chest/copper_exposed.png",
+          "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+          "assets/minecraft/textures/entity/chest/copper_weathered.png",
+          "assets/minecraft/textures/item/copper_chain.png",
+          "assets/minecraft/textures/item/copper_door.png",
+          "assets/minecraft/textures/item/copper_lantern.png",
+          "assets/minecraft/textures/item/exposed_copper_chain.png",
+          "assets/minecraft/textures/item/exposed_copper_door.png",
+          "assets/minecraft/textures/item/exposed_copper_lantern.png",
+          "assets/minecraft/textures/item/oxidized_copper_chain.png",
+          "assets/minecraft/textures/item/oxidized_copper_door.png",
+          "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+          "assets/minecraft/textures/item/weathered_copper_chain.png",
+          "assets/minecraft/textures/item/weathered_copper_door.png",
+          "assets/minecraft/textures/item/weathered_copper_lantern.png"
+        ],
+        "different_dimensions": [],
+        "missing_required_paths": [],
+        "same_texture_bytes_as_latest": false
+      },
+      {
+        "resolution": 64,
+        "family": "1.21.11",
+        "compared_to": "26.3",
+        "required_native_assets_count": 52,
+        "common_count": 52,
+        "different_hash_count": 26,
+        "different_hash_paths": [
+          "assets/minecraft/textures/block/cut_copper.png",
+          "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+          "assets/minecraft/textures/block/exposed_copper.png",
+          "assets/minecraft/textures/block/exposed_copper_bulb.png",
+          "assets/minecraft/textures/block/exposed_copper_grate.png",
+          "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+          "assets/minecraft/textures/block/exposed_cut_copper.png",
+          "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+          "assets/minecraft/textures/block/oxidized_cut_copper.png",
+          "assets/minecraft/textures/block/weathered_copper.png",
+          "assets/minecraft/textures/block/weathered_copper_bulb.png",
+          "assets/minecraft/textures/block/weathered_copper_grate.png",
+          "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+          "assets/minecraft/textures/block/weathered_cut_copper.png",
+          "assets/minecraft/textures/entity/chest/copper.png",
+          "assets/minecraft/textures/entity/chest/copper_exposed.png",
+          "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+          "assets/minecraft/textures/entity/chest/copper_weathered.png",
+          "assets/minecraft/textures/item/copper_chain.png",
+          "assets/minecraft/textures/item/copper_lantern.png",
+          "assets/minecraft/textures/item/exposed_copper_chain.png",
+          "assets/minecraft/textures/item/exposed_copper_lantern.png",
+          "assets/minecraft/textures/item/oxidized_copper_chain.png",
+          "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+          "assets/minecraft/textures/item/weathered_copper_chain.png",
+          "assets/minecraft/textures/item/weathered_copper_lantern.png"
+        ],
+        "different_dimensions": [],
+        "missing_required_paths": [],
+        "same_texture_bytes_as_latest": false
+      },
+      {
+        "resolution": 64,
+        "family": "26.1",
+        "compared_to": "26.3",
+        "required_native_assets_count": 52,
+        "common_count": 52,
+        "different_hash_count": 4,
+        "different_hash_paths": [
+          "assets/minecraft/textures/entity/chest/copper.png",
+          "assets/minecraft/textures/entity/chest/copper_exposed.png",
+          "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+          "assets/minecraft/textures/entity/chest/copper_weathered.png"
+        ],
+        "different_dimensions": [],
+        "missing_required_paths": [],
+        "same_texture_bytes_as_latest": false
+      },
+      {
+        "resolution": 64,
+        "family": "26.2",
+        "compared_to": "26.3",
+        "required_native_assets_count": 52,
+        "common_count": 52,
+        "different_hash_count": 0,
+        "different_hash_paths": [],
+        "different_dimensions": [],
+        "missing_required_paths": [],
+        "same_texture_bytes_as_latest": true
+      },
+      {
+        "resolution": 64,
+        "family": "26.3",
+        "compared_to": "26.3",
+        "required_native_assets_count": 52,
+        "common_count": 52,
+        "different_hash_count": 0,
+        "different_hash_paths": [],
+        "different_dimensions": [],
+        "missing_required_paths": [],
+        "same_texture_bytes_as_latest": true
+      }
+    ]
+  },
+  "artist_attribution": {
+    "32x": {
+      "assets": [
+        {
+          "native_path": "assets/minecraft/textures/block/chiseled_copper.png",
+          "texture_id": "6314",
+          "texture_name": "chiseled_copper",
+          "contribution_id": "6771d7f9180ed",
+          "contribution_date": "2024-12-29T23:00:02.613000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6314/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_bars.png",
+          "texture_id": "7358",
+          "texture_name": "copper_bars",
+          "contribution_id": "689ced06e0ef8",
+          "contribution_date": "2025-08-13T19:52:37.639000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Evorp",
+            "Ozzy"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7358/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_block.png",
+          "texture_id": "212",
+          "texture_name": "copper_block",
+          "contribution_id": "6771d7f9180c2",
+          "contribution_date": "2024-12-29T23:00:01.846000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/212/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_bulb.png",
+          "texture_id": "6319",
+          "texture_name": "copper_bulb",
+          "contribution_id": "6782fb8238daf",
+          "contribution_date": "2025-01-11T23:00:04.034000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6319/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_grate.png",
+          "texture_id": "6325",
+          "texture_name": "copper_grate",
+          "contribution_id": "6771d7f9180ee",
+          "contribution_date": "2024-12-29T23:00:02.280000+00:00",
+          "authors": [
+            "Skottify",
+            "axialeaa"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6325/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_trapdoor.png",
+          "texture_id": "6326",
+          "texture_name": "copper_trapdoor",
+          "contribution_id": "677329827b08c",
+          "contribution_date": "2024-12-30T23:00:09.502000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6326/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/cut_copper.png",
+          "texture_id": "235",
+          "texture_name": "cut_copper",
+          "contribution_id": "6934054a2966a",
+          "contribution_date": "2025-12-06T10:28:25.191000+00:00",
+          "authors": [
+            "Aerod",
+            "Evorp",
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/235/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+          "texture_id": "6327",
+          "texture_name": "exposed_chiseled_copper",
+          "contribution_id": "677329827b08d",
+          "contribution_date": "2024-12-30T23:00:02.306000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "Aerod",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6327/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper.png",
+          "texture_id": "444",
+          "texture_name": "exposed_copper",
+          "contribution_id": "6771d7f9180ea",
+          "contribution_date": "2024-12-29T23:00:02.999000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/444/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_bars.png",
+          "texture_id": "7362",
+          "texture_name": "exposed_copper_bars",
+          "contribution_id": "689e5fea83408",
+          "contribution_date": "2025-08-14T22:00:05.819000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Evorp",
+            "Ozzy"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7362/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_bulb.png",
+          "texture_id": "6328",
+          "texture_name": "exposed_copper_bulb",
+          "contribution_id": "6785316826e19",
+          "contribution_date": "2025-01-13T15:29:43.008000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6328/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_grate.png",
+          "texture_id": "6334",
+          "texture_name": "exposed_copper_grate",
+          "contribution_id": "677329827b091",
+          "contribution_date": "2024-12-30T23:00:03.578000+00:00",
+          "authors": [
+            "Skottify",
+            "axialeaa",
+            "Aerod",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6334/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+          "texture_id": "6335",
+          "texture_name": "exposed_copper_trapdoor",
+          "contribution_id": "677329827b092",
+          "contribution_date": "2024-12-30T23:00:09.847000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "Aerod",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6335/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_cut_copper.png",
+          "texture_id": "445",
+          "texture_name": "exposed_cut_copper",
+          "contribution_id": "628ffbe5891ec",
+          "contribution_date": "2022-05-26T22:00:01.705000+00:00",
+          "authors": [
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/445/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_lightning_rod.png",
+          "texture_id": "7345",
+          "texture_name": "exposed_lightning_rod",
+          "contribution_id": "688beaed1233e",
+          "contribution_date": "2025-07-31T22:00:03.906000+00:00",
+          "authors": [
+            "HARYA_",
+            "Evorp",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7345/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/lightning_rod.png",
+          "texture_id": "446",
+          "texture_name": "lightning_rod",
+          "contribution_id": "67e095f5adc5a",
+          "contribution_date": "2025-03-23T23:00:01.649000+00:00",
+          "authors": [
+            "Evorp",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/446/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+          "texture_id": "6336",
+          "texture_name": "oxidized_chiseled_copper",
+          "contribution_id": "677329827b093",
+          "contribution_date": "2024-12-30T23:00:03.216000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6336/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper.png",
+          "texture_id": "795",
+          "texture_name": "oxidized_copper",
+          "contribution_id": "68def96c6c868",
+          "contribution_date": "2025-10-02T22:00:21.100000+00:00",
+          "authors": [
+            "Aerod",
+            "Skottify",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/795/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_bars.png",
+          "texture_id": "7365",
+          "texture_name": "oxidized_copper_bars",
+          "contribution_id": "689cc1f86bcf0",
+          "contribution_date": "2025-08-13T16:48:55.033000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Evorp",
+            "Ozzy"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7365/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+          "texture_id": "6337",
+          "texture_name": "oxidized_copper_bulb",
+          "contribution_id": "67853210d1fca",
+          "contribution_date": "2025-01-13T15:32:31.814000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6337/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_grate.png",
+          "texture_id": "6343",
+          "texture_name": "oxidized_copper_grate",
+          "contribution_id": "6775cc7760513",
+          "contribution_date": "2025-01-01T23:00:02.190000+00:00",
+          "authors": [
+            "Skottify",
+            "axialeaa",
+            "Aerod",
+            "Seirin-Blu"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6343/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+          "texture_id": "6344",
+          "texture_name": "oxidized_copper_trapdoor",
+          "contribution_id": "6775cc7760515",
+          "contribution_date": "2025-01-01T23:00:02.808000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "Aerod",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6344/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_cut_copper.png",
+          "texture_id": "796",
+          "texture_name": "oxidized_cut_copper",
+          "contribution_id": "67dca1777cd3b",
+          "contribution_date": "2025-03-20T23:00:02.554000+00:00",
+          "authors": [
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/796/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+          "texture_id": "7346",
+          "texture_name": "oxidized_lightning_rod",
+          "contribution_id": "688beaed1233f",
+          "contribution_date": "2025-07-31T22:00:05.143000+00:00",
+          "authors": [
+            "HARYA_",
+            "Evorp",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7346/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+          "texture_id": "6347",
+          "texture_name": "weathered_chiseled_copper",
+          "contribution_id": "677329827b098",
+          "contribution_date": "2024-12-30T23:00:02.715000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6347/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper.png",
+          "texture_id": "677",
+          "texture_name": "weathered_copper",
+          "contribution_id": "6771d7f9180eb",
+          "contribution_date": "2024-12-29T23:00:03.243000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming",
+            "Aerod",
+            "Pomi108"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/677/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_bars.png",
+          "texture_id": "7368",
+          "texture_name": "weathered_copper_bars",
+          "contribution_id": "68c1f8682001e",
+          "contribution_date": "2025-09-10T22:00:02.254000+00:00",
+          "authors": [
+            "EachKhaiho",
+            "TheRandomGamerTRG",
+            "Evorp",
+            "Ozzy"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7368/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_bulb.png",
+          "texture_id": "6348",
+          "texture_name": "weathered_copper_bulb",
+          "contribution_id": "678531bdc2305",
+          "contribution_date": "2025-01-13T15:31:08.645000+00:00",
+          "authors": [
+            "Skottify",
+            "DMgaming",
+            "Pomi108",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6348/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_grate.png",
+          "texture_id": "6354",
+          "texture_name": "weathered_copper_grate",
+          "contribution_id": "677329827b09b",
+          "contribution_date": "2024-12-30T23:00:03.931000+00:00",
+          "authors": [
+            "Skottify",
+            "axialeaa",
+            "Aerod",
+            "Pomi108"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6354/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+          "texture_id": "6355",
+          "texture_name": "weathered_copper_trapdoor",
+          "contribution_id": "677329827b09c",
+          "contribution_date": "2024-12-30T23:00:10.180000+00:00",
+          "authors": [
+            "Skottify",
+            "HARYA_",
+            "Pomi108",
+            "DMgaming"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6355/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_cut_copper.png",
+          "texture_id": "678",
+          "texture_name": "weathered_cut_copper",
+          "contribution_id": "67dca1777cd3a",
+          "contribution_date": "2025-03-20T23:00:02.798000+00:00",
+          "authors": [
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/678/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_lightning_rod.png",
+          "texture_id": "7347",
+          "texture_name": "weathered_lightning_rod",
+          "contribution_id": "688beaed12340",
+          "contribution_date": "2025-07-31T22:00:03.379000+00:00",
+          "authors": [
+            "HARYA_",
+            "Evorp",
+            "Aerod"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7347/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper.png",
+          "texture_id": "7380",
+          "texture_name": "copper",
+          "contribution_id": "69dac7f760858",
+          "contribution_date": "2026-04-11T22:02:01.070000+00:00",
+          "authors": [
+            "eva",
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7380/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_exposed.png",
+          "texture_id": "7381",
+          "texture_name": "copper_exposed",
+          "contribution_id": "69dac7f760859",
+          "contribution_date": "2026-04-11T22:01:59.922000+00:00",
+          "authors": [
+            "eva",
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7381/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+          "texture_id": "7385",
+          "texture_name": "copper_oxidized",
+          "contribution_id": "69dac7f760865",
+          "contribution_date": "2026-04-11T22:01:59.350000+00:00",
+          "authors": [
+            "eva",
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7385/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_weathered.png",
+          "texture_id": "7389",
+          "texture_name": "copper_weathered",
+          "contribution_id": "69dac7f76086f",
+          "contribution_date": "2026-04-11T22:01:58.975000+00:00",
+          "authors": [
+            "eva",
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7389/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+          "texture_id": "7311",
+          "texture_name": "copper_golem",
+          "contribution_id": "688e8deb54a96",
+          "contribution_date": "2025-08-02T22:00:08.232000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7311/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_exposed.png",
+          "texture_id": "7310",
+          "texture_name": "copper_golem_exposed",
+          "contribution_id": "6892827737aa4",
+          "contribution_date": "2025-08-05T22:00:07.357000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7310/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_oxidized.png",
+          "texture_id": "7305",
+          "texture_name": "copper_golem_oxidized",
+          "contribution_id": "6892827737a9d",
+          "contribution_date": "2025-08-05T22:00:09.478000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7305/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_weathered.png",
+          "texture_id": "7304",
+          "texture_name": "copper_golem_weathered",
+          "contribution_id": "6892827737a9c",
+          "contribution_date": "2025-08-05T22:00:06.504000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7304/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_chain.png",
+          "texture_id": "7371",
+          "texture_name": "copper_chain",
+          "contribution_id": "6894f5c981de7",
+          "contribution_date": "2025-08-07T18:51:52.424000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7371/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_door.png",
+          "texture_id": "6313",
+          "texture_name": "copper_door",
+          "contribution_id": "68d31bedab3db",
+          "contribution_date": "2025-09-23T22:00:16.919000+00:00",
+          "authors": [
+            "eva",
+            "DMgaming",
+            "Jamiscus"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6313/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_lantern.png",
+          "texture_id": "7372",
+          "texture_name": "copper_lantern",
+          "contribution_id": "6977f57919443",
+          "contribution_date": "2026-01-26T23:00:09.538000+00:00",
+          "authors": [
+            "Aerod",
+            "Jamiscus",
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7372/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_chain.png",
+          "texture_id": "7373",
+          "texture_name": "exposed_copper_chain",
+          "contribution_id": "689676eb206bd",
+          "contribution_date": "2025-08-08T22:00:05.047000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7373/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_door.png",
+          "texture_id": "6312",
+          "texture_name": "exposed_copper_door",
+          "contribution_id": "68d31bedab3da",
+          "contribution_date": "2025-09-23T22:00:06.822000+00:00",
+          "authors": [
+            "eva",
+            "DMgaming",
+            "Jamiscus"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6312/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_lantern.png",
+          "texture_id": "7374",
+          "texture_name": "exposed_copper_lantern",
+          "contribution_id": "6977f5791944e",
+          "contribution_date": "2026-01-26T23:00:09.234000+00:00",
+          "authors": [
+            "Aerod",
+            "Jamiscus",
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7374/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_chain.png",
+          "texture_id": "7375",
+          "texture_name": "oxidized_copper_chain",
+          "contribution_id": "6894f5cfb405b",
+          "contribution_date": "2025-08-07T18:51:58.761000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7375/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_door.png",
+          "texture_id": "6311",
+          "texture_name": "oxidized_copper_door",
+          "contribution_id": "68d31bedab3d9",
+          "contribution_date": "2025-09-23T22:00:09.758000+00:00",
+          "authors": [
+            "eva",
+            "DMgaming",
+            "Jamiscus"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6311/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+          "texture_id": "7376",
+          "texture_name": "oxidized_copper_lantern",
+          "contribution_id": "6977f5791944f",
+          "contribution_date": "2026-01-26T23:00:04.122000+00:00",
+          "authors": [
+            "Aerod",
+            "Jamiscus",
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7376/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_chain.png",
+          "texture_id": "7377",
+          "texture_name": "weathered_copper_chain",
+          "contribution_id": "689676eb206be",
+          "contribution_date": "2025-08-08T22:00:05.559000+00:00",
+          "authors": [
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7377/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_door.png",
+          "texture_id": "6310",
+          "texture_name": "weathered_copper_door",
+          "contribution_id": "68d31bedab3d8",
+          "contribution_date": "2025-09-23T22:00:11.213000+00:00",
+          "authors": [
+            "eva",
+            "DMgaming",
+            "Jamiscus"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6310/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_lantern.png",
+          "texture_id": "7378",
+          "texture_name": "weathered_copper_lantern",
+          "contribution_id": "6977f57919450",
+          "contribution_date": "2026-01-26T23:00:04.561000+00:00",
+          "authors": [
+            "Aerod",
+            "Jamiscus",
+            "TheRandomGamerTRG",
+            "Skottify"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7378/all"
+        }
+      ],
+      "author_names_apply_to_all_selected_families": true,
+      "contribution_references_apply_to_family": "26.3",
+      "contribution_references_scope": "Latest selected family only. Contribution IDs/dates do not identify older differently hashed artwork.",
+      "method": "Author names were independently compared against dated official API metadata for every selected family; names agree. Recorded compact contribution IDs/date references are from 26.3 only. No pixel-to-contribution-identity verification is claimed."
+    },
+    "64x": {
+      "assets": [
+        {
+          "native_path": "assets/minecraft/textures/block/chiseled_copper.png",
+          "texture_id": "6314",
+          "texture_name": "chiseled_copper",
+          "contribution_id": "66146c6d4328c",
+          "contribution_date": "2024-04-08T22:00:05.578000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6314/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_bars.png",
+          "texture_id": "7358",
+          "texture_name": "copper_bars",
+          "contribution_id": "6893d3fa03f0e",
+          "contribution_date": "2025-08-06T22:00:30.448000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7358/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_block.png",
+          "texture_id": "212",
+          "texture_name": "copper_block",
+          "contribution_id": "65dd1b806253d",
+          "contribution_date": "2024-02-26T23:00:11.892000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/212/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_bulb.png",
+          "texture_id": "6319",
+          "texture_name": "copper_bulb",
+          "contribution_id": "662c276c126bf",
+          "contribution_date": "2024-04-26T22:00:14.902000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6319/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_grate.png",
+          "texture_id": "6325",
+          "texture_name": "copper_grate",
+          "contribution_id": "65dd1b8062564",
+          "contribution_date": "2024-02-26T23:00:13.199000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6325/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/copper_trapdoor.png",
+          "texture_id": "6326",
+          "texture_name": "copper_trapdoor",
+          "contribution_id": "6643e27875dd3",
+          "contribution_date": "2024-05-14T22:00:08.675000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6326/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/cut_copper.png",
+          "texture_id": "235",
+          "texture_name": "cut_copper",
+          "contribution_id": "6951b9ffe19bd",
+          "contribution_date": "2025-12-28T23:00:04.841000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/235/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+          "texture_id": "6327",
+          "texture_name": "exposed_chiseled_copper",
+          "contribution_id": "693f45758136a",
+          "contribution_date": "2025-12-14T23:17:08.695000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6327/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper.png",
+          "texture_id": "444",
+          "texture_name": "exposed_copper",
+          "contribution_id": "6940238333b70",
+          "contribution_date": "2025-12-15T15:04:34.409000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/444/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_bars.png",
+          "texture_id": "7362",
+          "texture_name": "exposed_copper_bars",
+          "contribution_id": "6893d3fa03f10",
+          "contribution_date": "2025-08-06T22:00:37.420000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7362/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_bulb.png",
+          "texture_id": "6328",
+          "texture_name": "exposed_copper_bulb",
+          "contribution_id": "693f458b8b4bf",
+          "contribution_date": "2025-12-14T23:17:30.883000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6328/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_grate.png",
+          "texture_id": "6334",
+          "texture_name": "exposed_copper_grate",
+          "contribution_id": "693f45ffe71f9",
+          "contribution_date": "2025-12-14T23:19:27.129000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6334/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+          "texture_id": "6335",
+          "texture_name": "exposed_copper_trapdoor",
+          "contribution_id": "693f46165d14e",
+          "contribution_date": "2025-12-14T23:19:49.653000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6335/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_cut_copper.png",
+          "texture_id": "445",
+          "texture_name": "exposed_cut_copper",
+          "contribution_id": "6951b9ffe19e3",
+          "contribution_date": "2025-12-28T23:00:05.235000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/445/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/exposed_lightning_rod.png",
+          "texture_id": "7345",
+          "texture_name": "exposed_lightning_rod",
+          "contribution_id": "688e8def8482d",
+          "contribution_date": "2025-08-02T22:00:13.412000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7345/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/lightning_rod.png",
+          "texture_id": "446",
+          "texture_name": "lightning_rod",
+          "contribution_id": "688e8def8481f",
+          "contribution_date": "2025-08-02T22:00:12.239000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/446/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+          "texture_id": "6336",
+          "texture_name": "oxidized_chiseled_copper",
+          "contribution_id": "661469a46ab90",
+          "contribution_date": "2024-04-08T22:03:15.428000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6336/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper.png",
+          "texture_id": "795",
+          "texture_name": "oxidized_copper",
+          "contribution_id": "65dd1b8062563",
+          "contribution_date": "2024-02-26T23:00:12.880000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/795/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_bars.png",
+          "texture_id": "7365",
+          "texture_name": "oxidized_copper_bars",
+          "contribution_id": "6893d3fa03f13",
+          "contribution_date": "2025-08-06T22:00:31.119000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7365/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+          "texture_id": "6337",
+          "texture_name": "oxidized_copper_bulb",
+          "contribution_id": "6941e7f8758e4",
+          "contribution_date": "2025-12-16T23:00:11.218000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6337/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_grate.png",
+          "texture_id": "6343",
+          "texture_name": "oxidized_copper_grate",
+          "contribution_id": "65dd1b8062566",
+          "contribution_date": "2024-02-26T23:00:18.406000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6343/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+          "texture_id": "6344",
+          "texture_name": "oxidized_copper_trapdoor",
+          "contribution_id": "6643e27875dd1",
+          "contribution_date": "2024-05-14T22:00:07.931000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6344/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_cut_copper.png",
+          "texture_id": "796",
+          "texture_name": "oxidized_cut_copper",
+          "contribution_id": "6951b9ffe19e7",
+          "contribution_date": "2025-12-28T23:00:04.429000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/796/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+          "texture_id": "7346",
+          "texture_name": "oxidized_lightning_rod",
+          "contribution_id": "688e8def8482e",
+          "contribution_date": "2025-08-02T22:00:14.066000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7346/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+          "texture_id": "6347",
+          "texture_name": "weathered_chiseled_copper",
+          "contribution_id": "6629846ca39cb",
+          "contribution_date": "2024-04-24T22:00:20.294000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6347/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper.png",
+          "texture_id": "677",
+          "texture_name": "weathered_copper",
+          "contribution_id": "6941e7f8758de",
+          "contribution_date": "2025-12-16T23:00:02.173000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/677/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_bars.png",
+          "texture_id": "7368",
+          "texture_name": "weathered_copper_bars",
+          "contribution_id": "68b8bde7b5116",
+          "contribution_date": "2025-09-03T22:00:06.286000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7368/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_bulb.png",
+          "texture_id": "6348",
+          "texture_name": "weathered_copper_bulb",
+          "contribution_id": "6941e7f8758e8",
+          "contribution_date": "2025-12-16T23:00:10.865000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6348/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_grate.png",
+          "texture_id": "6354",
+          "texture_name": "weathered_copper_grate",
+          "contribution_id": "6941e7f8758ec",
+          "contribution_date": "2025-12-16T23:00:04.879000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6354/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+          "texture_id": "6355",
+          "texture_name": "weathered_copper_trapdoor",
+          "contribution_id": "6941e7f8758f6",
+          "contribution_date": "2025-12-16T23:00:03.658000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6355/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_cut_copper.png",
+          "texture_id": "678",
+          "texture_name": "weathered_cut_copper",
+          "contribution_id": "6951b9ffe19e6",
+          "contribution_date": "2025-12-28T23:00:04.060000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/678/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/block/weathered_lightning_rod.png",
+          "texture_id": "7347",
+          "texture_name": "weathered_lightning_rod",
+          "contribution_id": "688e8def8482f",
+          "contribution_date": "2025-08-02T22:00:12.666000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7347/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper.png",
+          "texture_id": "7380",
+          "texture_name": "copper",
+          "contribution_id": "6a0258dd86950",
+          "contribution_date": "2026-05-11T22:31:49.689000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7380/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_exposed.png",
+          "texture_id": "7381",
+          "texture_name": "copper_exposed",
+          "contribution_id": "6a0258dd86980",
+          "contribution_date": "2026-05-11T22:31:50.084000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7381/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+          "texture_id": "7385",
+          "texture_name": "copper_oxidized",
+          "contribution_id": "6a0258dd86986",
+          "contribution_date": "2026-05-11T22:31:51.390000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7385/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/chest/copper_weathered.png",
+          "texture_id": "7389",
+          "texture_name": "copper_weathered",
+          "contribution_id": "6a02591f48ce7",
+          "contribution_date": "2026-05-11T22:32:55.959000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7389/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+          "texture_id": "7311",
+          "texture_name": "copper_golem",
+          "contribution_id": "689282899fc5f",
+          "contribution_date": "2025-08-05T22:00:29.921000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7311/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_exposed.png",
+          "texture_id": "7310",
+          "texture_name": "copper_golem_exposed",
+          "contribution_id": "689282899fc5e",
+          "contribution_date": "2025-08-05T22:00:30.137000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7310/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_oxidized.png",
+          "texture_id": "7305",
+          "texture_name": "copper_golem_oxidized",
+          "contribution_id": "68928e4d483bd",
+          "contribution_date": "2025-08-05T23:05:47.822000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7305/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/entity/copper_golem/copper_golem_weathered.png",
+          "texture_id": "7304",
+          "texture_name": "copper_golem_weathered",
+          "contribution_id": "689282899fc58",
+          "contribution_date": "2025-08-05T22:00:29.574000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7304/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_chain.png",
+          "texture_id": "7371",
+          "texture_name": "copper_chain",
+          "contribution_id": "69b348ff55c01",
+          "contribution_date": "2026-03-12T23:00:02.661000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7371/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_door.png",
+          "texture_id": "6313",
+          "texture_name": "copper_door",
+          "contribution_id": "68ec287a319bc",
+          "contribution_date": "2025-10-12T22:00:40.333000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6313/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/copper_lantern.png",
+          "texture_id": "7372",
+          "texture_name": "copper_lantern",
+          "contribution_id": "6979cd76b8e59",
+          "contribution_date": "2026-01-28T08:48:52.912000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7372/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_chain.png",
+          "texture_id": "7373",
+          "texture_name": "exposed_copper_chain",
+          "contribution_id": "69b348ff55c02",
+          "contribution_date": "2026-03-12T23:00:03.611000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7373/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_door.png",
+          "texture_id": "6312",
+          "texture_name": "exposed_copper_door",
+          "contribution_id": "68ec287a319bb",
+          "contribution_date": "2025-10-12T22:00:33.712000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6312/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/exposed_copper_lantern.png",
+          "texture_id": "7374",
+          "texture_name": "exposed_copper_lantern",
+          "contribution_id": "6979cd76b8e5a",
+          "contribution_date": "2026-01-28T08:48:53.103000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7374/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_chain.png",
+          "texture_id": "7375",
+          "texture_name": "oxidized_copper_chain",
+          "contribution_id": "69b348ff55c07",
+          "contribution_date": "2026-03-12T23:00:04.243000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7375/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_door.png",
+          "texture_id": "6311",
+          "texture_name": "oxidized_copper_door",
+          "contribution_id": "68ec287a319ba",
+          "contribution_date": "2025-10-12T22:00:39.856000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6311/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+          "texture_id": "7376",
+          "texture_name": "oxidized_copper_lantern",
+          "contribution_id": "6979cd76b8e5b",
+          "contribution_date": "2026-01-28T08:48:53.485000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7376/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_chain.png",
+          "texture_id": "7377",
+          "texture_name": "weathered_copper_chain",
+          "contribution_id": "69b348ff55c08",
+          "contribution_date": "2026-03-12T23:00:07.049000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7377/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_door.png",
+          "texture_id": "6310",
+          "texture_name": "weathered_copper_door",
+          "contribution_id": "68ec287a319b9",
+          "contribution_date": "2025-10-12T22:00:32.576000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/6310/all"
+        },
+        {
+          "native_path": "assets/minecraft/textures/item/weathered_copper_lantern.png",
+          "texture_id": "7378",
+          "texture_name": "weathered_copper_lantern",
+          "contribution_id": "6979cd76b8e3e",
+          "contribution_date": "2026-01-28T08:48:52.543000+00:00",
+          "authors": [
+            "HARYA_"
+          ],
+          "evidence_url": "https://api.faithfulpack.net/v2/textures/7378/all"
+        }
+      ],
+      "author_names_apply_to_all_selected_families": true,
+      "contribution_references_apply_to_family": "26.3",
+      "contribution_references_scope": "Latest selected family only. Contribution IDs/dates do not identify older differently hashed artwork.",
+      "method": "Author names were independently compared against dated official API metadata for every selected family; names agree. Recorded compact contribution IDs/date references are from 26.3 only. No pixel-to-contribution-identity verification is claimed."
+    }
+  },
+  "scope": "Official published per-client-family source textures, verified by archive and PNG hashes. Author names are shared across families; compact contribution references identify 26.3 metadata only. Historical per-family dated records are in artist-attribution.json; these API metadata dates do not prove contribution-to-release pixel identity.",
+  "selection": "Newest official published stable export for each client family: Faithful 32x September 2026 exports; Faithful 64x Releases 11, 12, 13, 14 and 15. Each derived edition uses its mapped client-family source.",
+  "artist_attribution_detail_file": "artist-attribution.json"
+}

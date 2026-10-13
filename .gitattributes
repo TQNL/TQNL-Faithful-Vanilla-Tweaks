@@ -1,0 +1,9 @@
+# Preserve pinned source bytes and the reproducible accepted rendering assets.
+visual-copper/** -text
+overlay_69/** -text
+overlay_copper_26/** -text
+.gitattributes text eol=lf
+README.md text eol=lf
+visual-copper/docs/*.md text eol=lf
+visual-copper/requirements.txt text eol=lf
+tools/*.py text eol=lf

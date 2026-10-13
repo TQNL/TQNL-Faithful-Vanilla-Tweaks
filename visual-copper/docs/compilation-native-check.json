@@ -1,0 +1,32 @@
+{
+  "minecraft_window_or_world_started": false,
+  "scope": "Native metadata and full resource-byte resolution only; broader compilation visuals untested.",
+  "checks": [
+    {
+      "client_version": "1.21.9",
+      "client_jar_sha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+      "format": [
+        69,
+        0
+      ],
+      "compatibility": "COMPATIBLE",
+      "selected_overlays": "[overlay_34_69, overlay_42, overlay_42_69, overlay_46, overlay_53, overlay_57, overlay_58, overlay_58_69, overlay_63, overlay_63_69, overlay_69, overlay_69_69, overlay_34_74]",
+      "asset_count": 926,
+      "effective_assets_sha256": "468a03e70187a66047c06350148620f015579f3674e19c04e5576f2304d8f0b3",
+      "copper_resources_match_standalone": true
+    },
+    {
+      "client_version": "26.3",
+      "client_jar_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "format": [
+        97,
+        1
+      ],
+      "compatibility": "COMPATIBLE",
+      "selected_overlays": "[overlay_copper_26]",
+      "asset_count": 806,
+      "effective_assets_sha256": "8fd8fe995954d1785166d74c2e8949378e41cecffb1f724690415328d05b36f2",
+      "copper_resources_match_standalone": true
+    }
+  ]
+}

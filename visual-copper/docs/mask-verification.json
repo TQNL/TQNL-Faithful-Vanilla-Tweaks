@@ -1,0 +1,5774 @@
+{
+  "families": 10,
+  "textures": [
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1724,
+      "wax_fraction": 0.2042
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1724,
+      "wax_fraction": 0.2042
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1724,
+      "wax_fraction": 0.2042
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1724,
+      "wax_fraction": 0.2042
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 220,
+      "opaque_pixels": 440,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 296,
+      "opaque_pixels": 886,
+      "wax_fraction": 0.3341
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 100,
+      "opaque_pixels": 464,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 55,
+      "opaque_pixels": 110,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 708,
+      "opaque_pixels": 6608,
+      "wax_fraction": 0.1071
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 88,
+      "opaque_pixels": 430,
+      "wax_fraction": 0.2047
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 184,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 1564,
+      "opaque_pixels": 5296,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 529,
+      "wax_fraction": 0.2344
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 65,
+      "opaque_pixels": 212,
+      "wax_fraction": 0.3066
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 792,
+      "wax_fraction": 0.1566
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 72,
+      "opaque_pixels": 192,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 124,
+      "opaque_pixels": 1024,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 80,
+      "opaque_pixels": 160,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_block.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_exposed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_oxidized_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_chiseled_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_bars.png",
+      "wax_pixels": 400,
+      "opaque_pixels": 1856,
+      "wax_fraction": 0.2155
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_bulb.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_chain.png",
+      "wax_pixels": 202,
+      "opaque_pixels": 404,
+      "wax_fraction": 0.5
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_chest.png",
+      "wax_pixels": 2848,
+      "opaque_pixels": 26432,
+      "wax_fraction": 0.1077
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_door.png",
+      "wax_pixels": 352,
+      "opaque_pixels": 1683,
+      "wax_fraction": 0.2092
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_double1.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_double2.png",
+      "wax_pixels": 736,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1797
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_golem_statue.png",
+      "wax_pixels": 6256,
+      "opaque_pixels": 21184,
+      "wax_fraction": 0.2953
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_grate.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 1826,
+      "wax_fraction": 0.2716
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_lantern.png",
+      "wax_pixels": 278,
+      "opaque_pixels": 858,
+      "wax_fraction": 0.324
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_stairs1.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_stairs2.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3072,
+      "wax_fraction": 0.1615
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_trapdoor.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 3120,
+      "wax_fraction": 0.159
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_copper_trapdoor_side.png",
+      "wax_pixels": 288,
+      "opaque_pixels": 768,
+      "wax_fraction": 0.375
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_cut_copper.png",
+      "wax_pixels": 496,
+      "opaque_pixels": 4096,
+      "wax_fraction": 0.1211
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "waxed_weathered_lightning_rod.png",
+      "wax_pixels": 320,
+      "opaque_pixels": 640,
+      "wax_fraction": 0.5
+    }
+  ],
+  "all_passed": true,
+  "errors": [],
+  "checks": [
+    "each mask nonempty",
+    "each surface retains original opaque detail",
+    "no transparent pixel selected",
+    "gold alpha equals original alpha",
+    "each added native face has wax and opaque interior"
+  ]
+}

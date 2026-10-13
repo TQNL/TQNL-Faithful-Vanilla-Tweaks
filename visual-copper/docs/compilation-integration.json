@@ -1,0 +1,19 @@
+{
+  "method": "Only copper item resources added in late-version overlays.",
+  "checks": [
+    {
+      "directory": "overlay_69",
+      "source_artifact": "VisualWaxedCopperItems-32x-mc-1.21.9.zip",
+      "assets": 193,
+      "effective_assets_sha256": "bbd9d0ff465cd1082bb367f57895d5e25062375f01dd51109052ae5af910d5c5"
+    },
+    {
+      "directory": "overlay_copper_26",
+      "source_artifact": "VisualWaxedCopperItems-32x-mc-26.3.zip",
+      "assets": 194,
+      "effective_assets_sha256": "856d8c83a6532ecd9a553b7abf17602d75d46a1c98b8c99ffd7d920defca39de"
+    }
+  ],
+  "other_compilation_assets_replaced": false,
+  "broader_compilation_visual_status": "Not tested in this pass."
+}
