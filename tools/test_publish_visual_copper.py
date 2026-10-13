@@ -35,8 +35,14 @@ class FakeGithub:
             if self.tag is None:
                 raise publisher.GithubHTTPError(404, method, endpoint)
             return {"object": {"type": "commit", "sha": self.tag}}
+        if method == "GET" and "/releases/tags/" in endpoint:
+            if self.release is None or self.release["draft"]:
+                raise publisher.GithubHTTPError(404, method, endpoint)
+            return self.release.copy()
         if method == "GET" and "/releases?" in endpoint:
             return [] if self.release is None else [self.release.copy()]
+        if method == "GET" and endpoint.endswith("/releases/123"):
+            return self.release.copy()
         if method == "POST" and endpoint.endswith("/releases"):
             self.release = dict(payload, id=123, assets=[],
                                 upload_url="https://uploads.github.com/repos/example/releases/123/assets{?name,label}",
@@ -159,6 +165,53 @@ class Safeguards(unittest.TestCase):
         api.calls.clear()
         self.run_quietly(api, "stage")
         self.assertTrue(all(method == "GET" for method, _, _ in api.calls))
+
+    def test_unpublished_draft_by_tag_404_falls_back_to_list(self):
+        api = FakeGithub(self.complete_remote())
+        found = publisher.find_release(api, self.planned.tag)
+        self.assertEqual(found["id"], 123)
+        self.assertTrue(found["draft"])
+        self.assertTrue(any("/releases/tags/" in endpoint for _, endpoint, _ in api.calls))
+        self.assertTrue(any("/releases?" in endpoint for _, endpoint, _ in api.calls))
+
+    def test_stage_uses_returned_id_when_list_visibility_lags(self):
+        class LaggingList(FakeGithub):
+            def json(self, method, endpoint, payload=None):
+                if method == "GET" and "/releases?" in endpoint and self.release is not None:
+                    self.calls.append((method, endpoint, payload))
+                    return []
+                return super().json(method, endpoint, payload)
+
+        api = LaggingList()
+        self.run_quietly(api, "stage")
+        self.assertTrue(api.release["draft"])
+        self.assertEqual(len(api.release["assets"]), 3)
+        self.assertEqual(len([call for call in api.calls if call[0] != "GET"]), 4)
+        self.assertTrue(any(endpoint.endswith("/releases/123") for _, endpoint, _ in api.calls))
+
+    def test_known_release_id_cannot_switch_tags(self):
+        remote = self.complete_remote()
+        remote["tag_name"] = "unrelated-tag"
+        api = FakeGithub(remote)
+        with self.assertRaisesRegex(publisher.PublicationError, "another tag"):
+            publisher.inspect_release(api, self.plan, self.planned, release_id=123)
+        self.assertTrue(all(method == "GET" for method, _, _ in api.calls))
+
+    def test_metadata_get_requests_bypass_caches(self):
+        class Recorder:
+            def open(self, request, timeout):
+                self.request = request
+                return None
+
+        api = publisher.Github("test-placeholder")
+        recorder = Recorder()
+        api._opener = recorder
+        try:
+            api._request("GET", "/example")
+            self.assertEqual(recorder.request.get_header("Cache-control"), "no-cache, no-store")
+            self.assertEqual(recorder.request.get_header("Pragma"), "no-cache")
+        finally:
+            api.close()
 
     def test_publish_requires_all_assets(self):
         remote = self.complete_remote()

@@ -152,6 +152,12 @@ class Github:
             "X-GitHub-Api-Version": API_VERSION,
             "User-Agent": "TQNL-VisualWaxedCopperItems-Publication",
         }
+        if method in ("GET", "HEAD"):
+            # Release lists and asset metadata may otherwise lag a completed
+            # mutation. Every safety decision requires a fresh authenticated
+            # read, including same-process staging and publication readbacks.
+            headers["Cache-Control"] = "no-cache, no-store"
+            headers["Pragma"] = "no-cache"
         if content_type:
             headers["Content-Type"] = content_type
         if data is not None:
@@ -342,7 +348,16 @@ def tag_commit(api: Github, tag: str) -> str | None:
 
 
 def find_release(api: Github, tag: str) -> dict | None:
-    # /releases/tags does not reliably expose every draft; enumerate all pages.
+    try:
+        remote = api.json("GET", f"/repos/{REPOSITORY}/releases/tags/{quote(tag, safe='')}")
+        if remote.get("tag_name") != tag:
+            raise PublicationError(f"GitHub returned another release tag: {tag}.")
+        return remote
+    except GithubHTTPError as error:
+        if error.status != 404:
+            raise
+    # GitHub's by-tag endpoint returns 404 for an unpublished draft. The
+    # authenticated list exposes drafts even before their tag ref exists.
     found = []
     for page in range(1, 100):
         items = api.json("GET", f"/repos/{REPOSITORY}/releases?per_page=100&page={page}")
@@ -364,15 +379,23 @@ def metadata_matches(remote: dict, planned: Release) -> bool:
     )
 
 
-def inspect_release(api: Github, plan: Plan, release: Release, require_complete=False):
+def inspect_release(api: Github, plan: Plan, release: Release, require_complete=False, release_id=None):
     commit = tag_commit(api, release.tag)
     if commit is not None and commit != plan.commit:
         raise PublicationError(f"Existing tag points to another commit: {release.tag}.")
-    remote = find_release(api, release.tag)
+    if release_id is None:
+        remote = find_release(api, release.tag)
+    else:
+        # A successful create/update response already supplies the stable ID.
+        # Re-read that resource directly rather than relying on immediate
+        # visibility of a new draft in a potentially lagging release list.
+        remote = api.json("GET", f"/repos/{REPOSITORY}/releases/{int(release_id)}")
     if remote is None:
         if require_complete:
             raise PublicationError(f"Release has not been staged: {release.tag}.")
         return None, []
+    if remote.get("tag_name") != release.tag:
+        raise PublicationError(f"Release ID points to another tag: {release.tag}.")
     if not remote.get("draft") and not metadata_matches(remote, release):
         raise PublicationError(f"Published release metadata differs from plan: {release.tag}.")
     if remote.get("draft") and commit is None and remote.get("target_commitish", "").lower() != plan.commit:
@@ -460,9 +483,10 @@ def run(api: Github, mode: str, plan: Plan | None):
                     "prerelease": False, "make_latest": "false",
                 })
                 print(f"Updated draft metadata: {release.tag}")
+            release_id = remote["id"]
             # Re-read after metadata operations and before each asset operation.
             for asset in release.assets:
-                current, missing = inspect_release(api, plan, release)
+                current, missing = inspect_release(api, plan, release, release_id=release_id)
                 if not current or not current["draft"]:
                     raise PublicationError(f"Release draft state changed: {release.tag}.")
                 if asset.name not in {item.name for item in missing}:
@@ -476,7 +500,7 @@ def run(api: Github, mode: str, plan: Plan | None):
                 if api.asset_hash(uploaded) != asset.sha256:
                     raise PublicationError(f"Uploaded asset SHA256 differs: {asset.name}.")
                 print(f"Uploaded and verified: {asset.name}")
-            inspect_release(api, plan, release, require_complete=True)
+            inspect_release(api, plan, release, require_complete=True, release_id=release_id)
         print("All planned draft releases and assets are staged and verified.")
         return
     for release in plan.releases:
@@ -486,7 +510,7 @@ def run(api: Github, mode: str, plan: Plan | None):
                 "draft": False,
                 "make_latest": "true" if release.target == "1.21.9-to-26.3" else "false",
             })
-        final, _ = inspect_release(api, plan, release, require_complete=True)
+        final, _ = inspect_release(api, plan, release, require_complete=True, release_id=remote["id"])
         if final["draft"]:
             raise PublicationError(f"Release publication could not be verified: {release.tag}.")
         print(f"Published and verified: {final['html_url']}")

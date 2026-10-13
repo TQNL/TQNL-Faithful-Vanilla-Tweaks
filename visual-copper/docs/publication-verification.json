@@ -1,0 +1,271 @@
+{
+  "verified_at_utc": "2026-10-13T23:08:17.603866+00:00",
+  "repository": "TQNL/TQNL-Faithful-Vanilla-Tweaks",
+  "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+  "release_count": 9,
+  "asset_count": 27,
+  "releases": [
+    {
+      "tag": "VisualWaxedCopperItems-mc-1.21.9",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.9",
+      "id": 412180570,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-1.21.9.zip",
+          "sha256": "4ed5e929c1c63b95ea32c49a5f10e1e729887dff578c01d8b5e5cea61001c1c8",
+          "bytes": 85008,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9/VisualWaxedCopperItems-16x-mc-1.21.9.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-1.21.9.zip",
+          "sha256": "8c51b0a78de25183d0a283392a250f6723ac34aca3b3e4eb652a2b37c927925a",
+          "bytes": 151036,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9/VisualWaxedCopperItems-32x-mc-1.21.9.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-1.21.9.zip",
+          "sha256": "c31486f1604e0c2b3bf0a02e62c52f46c0bb24b2995d608ce5c091bf4c889436",
+          "bytes": 224868,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9/VisualWaxedCopperItems-64x-mc-1.21.9.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-1.21.10",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.10",
+      "id": 412182272,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-1.21.10.zip",
+          "sha256": "5e176c8e2030ad774491d9b2a5dac8856b7e49ffb139f89f84ca00e9dac10574",
+          "bytes": 85011,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.10/VisualWaxedCopperItems-16x-mc-1.21.10.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-1.21.10.zip",
+          "sha256": "271500d4a03ff8cb8573517eb13bb6e7873a74184a6cd7b058838984f0f4ac13",
+          "bytes": 151039,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.10/VisualWaxedCopperItems-32x-mc-1.21.10.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-1.21.10.zip",
+          "sha256": "2c072c5e7fa1f1b006fd0100ddd7e3221d0c3ac07a2e0febade92ae31bb0db6e",
+          "bytes": 224872,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.10/VisualWaxedCopperItems-64x-mc-1.21.10.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-1.21.11",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.11",
+      "id": 412182328,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-1.21.11.zip",
+          "sha256": "2fdfac912fb2dbbc37c144c87b33221373d571e9e6f37e1696fd52ccccc44fdc",
+          "bytes": 85011,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.11/VisualWaxedCopperItems-16x-mc-1.21.11.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-1.21.11.zip",
+          "sha256": "9f4b4bb4e4597e24562db3e9b957de8d7c5a5575ed1f02645a86665de29ffdd5",
+          "bytes": 151031,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.11/VisualWaxedCopperItems-32x-mc-1.21.11.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-1.21.11.zip",
+          "sha256": "6b196beb34c88a6d762c03f5f827a0b4949391499bfc71342f5ab8975d421e1a",
+          "bytes": 225182,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.11/VisualWaxedCopperItems-64x-mc-1.21.11.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-26.1",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-26.1",
+      "id": 412182394,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-26.1.zip",
+          "sha256": "a825b2e306b65299adb2f6052a9ef236b33c7ecea6cf7b7b1b67a1a4d66092fd",
+          "bytes": 85987,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1/VisualWaxedCopperItems-16x-mc-26.1.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-26.1.zip",
+          "sha256": "f45a70c873aba0232f9d08142da5897ca65e3f8fb6aa8ec7c3c3415dfa66f962",
+          "bytes": 152299,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1/VisualWaxedCopperItems-32x-mc-26.1.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-26.1.zip",
+          "sha256": "cc31b0571a138b3fb8a973693afb9853045980571ea90fe2ab2b2b651cc38bd6",
+          "bytes": 212456,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1/VisualWaxedCopperItems-64x-mc-26.1.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-26.1.1",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-26.1.1",
+      "id": 412182437,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-26.1.1.zip",
+          "sha256": "49654664d1e007c14012c3606221cfaf381328774d74caca13d3cab9cf10ebbb",
+          "bytes": 85991,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.1/VisualWaxedCopperItems-16x-mc-26.1.1.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-26.1.1.zip",
+          "sha256": "d5be8f62db1cbf159855c7710f6bd90545a6256eeb47ba22c26ba44e074dd277",
+          "bytes": 152303,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.1/VisualWaxedCopperItems-32x-mc-26.1.1.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-26.1.1.zip",
+          "sha256": "4ddc52c8bb1d1fd95fff9cd53fbe12582ae534e30f1d90609a01f4b34c889049",
+          "bytes": 212462,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.1/VisualWaxedCopperItems-64x-mc-26.1.1.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-26.1.2",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-26.1.2",
+      "id": 412182480,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-26.1.2.zip",
+          "sha256": "2494d1fb8a9df47dab6c5a1c307ff3f7780571e5a889b1e3d028b9204a39c9fe",
+          "bytes": 85991,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.2/VisualWaxedCopperItems-16x-mc-26.1.2.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-26.1.2.zip",
+          "sha256": "64030fbf2ba2b4687988122d65d71a1ce02beb5b1768c1d340db6b1d858a662e",
+          "bytes": 152303,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.2/VisualWaxedCopperItems-32x-mc-26.1.2.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-26.1.2.zip",
+          "sha256": "1900e5c80818c493bf318ef04d47bb3bc3cebf20e5e0cc02098e2fe42418f5dd",
+          "bytes": 212462,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.1.2/VisualWaxedCopperItems-64x-mc-26.1.2.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-26.2",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-26.2",
+      "id": 412182521,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-26.2.zip",
+          "sha256": "dc18021b76424cd466d3bc5c2b5255469e549ddaf23bf402e3f9281f14502759",
+          "bytes": 85986,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.2/VisualWaxedCopperItems-16x-mc-26.2.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-26.2.zip",
+          "sha256": "0e45b9140bf63476d9e9ba7ff813c4382844e6337355b36ff22e9393db97eb06",
+          "bytes": 152291,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.2/VisualWaxedCopperItems-32x-mc-26.2.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-26.2.zip",
+          "sha256": "db5adf0de4162c19542339cb854d3541e70dc35d58519731e2b51004f2cedad5",
+          "bytes": 212476,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.2/VisualWaxedCopperItems-64x-mc-26.2.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-26.3",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-26.3",
+      "id": 412182581,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-26.3.zip",
+          "sha256": "e50bc75376243fc831b054ab42cace196b750250c2d7ee8a9c368120e681ebf0",
+          "bytes": 85987,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.3/VisualWaxedCopperItems-16x-mc-26.3.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-26.3.zip",
+          "sha256": "1cbf749713994fc4a1b3acd7efec533f75f4cc7b8c421a66744e3812a2633627",
+          "bytes": 152296,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.3/VisualWaxedCopperItems-32x-mc-26.3.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-26.3.zip",
+          "sha256": "e9d7d1c2a8f39fcd024e396d944263e0e215f0d94080831277562286174dd2a2",
+          "bytes": 212812,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-26.3/VisualWaxedCopperItems-64x-mc-26.3.zip"
+        }
+      ]
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+      "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+      "id": 412182632,
+      "source_commit": "ec3cee6d7c447f6564b7d7c1dec740621121c897",
+      "draft": false,
+      "assets": [
+        {
+          "name": "VisualWaxedCopperItems-16x-mc-1.21.9-to-26.3.zip",
+          "sha256": "c2513471a8333317943c4d8fef15c376fbc4055b251a7c2eec85f975e9d2a025",
+          "bytes": 88136,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9-to-26.3/VisualWaxedCopperItems-16x-mc-1.21.9-to-26.3.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+          "sha256": "e19e099b32620b74fd7d3a0062d83038e8a1a5b1936e90ff5abc209ebf5ca05d",
+          "bytes": 192160,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9-to-26.3/VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip"
+        },
+        {
+          "name": "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip",
+          "sha256": "68f91596e12f6f0ded9d10f4fea2ffc89c2e14f9a6ace7e37da0a24a2e3154f7",
+          "bytes": 415817,
+          "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/download/VisualWaxedCopperItems-mc-1.21.9-to-26.3/VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip"
+        }
+      ]
+    }
+  ],
+  "combined_download_readback": [
+    {
+      "name": "VisualWaxedCopperItems-16x-mc-1.21.9-to-26.3.zip",
+      "sha256": "c2513471a8333317943c4d8fef15c376fbc4055b251a7c2eec85f975e9d2a025",
+      "download_readback_matches": true
+    },
+    {
+      "name": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "sha256": "e19e099b32620b74fd7d3a0062d83038e8a1a5b1936e90ff5abc209ebf5ca05d",
+      "download_readback_matches": true
+    },
+    {
+      "name": "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip",
+      "sha256": "68f91596e12f6f0ded9d10f4fea2ffc89c2e14f9a6ace7e37da0a24a2e3154f7",
+      "download_readback_matches": true
+    }
+  ],
+  "latest_release": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+  "minecraft_started": false
+}
