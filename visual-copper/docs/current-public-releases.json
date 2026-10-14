@@ -1,0 +1,49 @@
+{
+  "repository": "TQNL/TQNL-Faithful-Vanilla-Tweaks",
+  "public_visibility_verified": true,
+  "all_five_downloads_verified_without_authentication": true,
+  "assets": [
+    {
+      "name": "TQNL-Faithful-Vanilla-Tweaks-32x-mc-1.21-to-1.21.8.zip",
+      "sha256": "c671fa8feff06f6501aff31bd07b5a20f9e5a5128fcc0adfdc62a9bc0bc027cd",
+      "bytes": 2059673
+    },
+    {
+      "name": "VisualWaxedCopperItems-16x-mc-1.21.9-to-26.3.zip",
+      "sha256": "c2513471a8333317943c4d8fef15c376fbc4055b251a7c2eec85f975e9d2a025",
+      "bytes": 88136
+    },
+    {
+      "name": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "sha256": "72f78c9c51ba8abfcf9fe190fe040e56db138003ea610f187bfdad495635fc15",
+      "bytes": 192518
+    },
+    {
+      "name": "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip",
+      "sha256": "f2c737d001199f8e7bffc7b72c321adabd6fc32649093547ef7899569908ae60",
+      "bytes": 416276
+    },
+    {
+      "name": "TQNL-Faithful-Vanilla-Tweaks-32x-merged-copper-V3.zip",
+      "sha256": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
+      "bytes": 2325249
+    }
+  ],
+  "releases": [
+    {
+      "tag": "TQNL-Faithful-Vanilla-Tweaks-mc-1.21-to-1.21.8",
+      "id": 412606588,
+      "source_commit": "77028434d8b2d9960dede0733c2abf19be9d5001"
+    },
+    {
+      "tag": "VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+      "id": 412606621,
+      "source_commit": "213b549c983363efdeaa8ad3c9f36bf0ec439347"
+    },
+    {
+      "tag": "TQNL-Faithful-Vanilla-Tweaks-32x-merged-copper-v3",
+      "id": 412606670,
+      "source_commit": "d1e9d5a6c972b3f1cc9e650dc963f3b95bade7e0"
+    }
+  ]
+}

@@ -1,11 +1,12 @@
 {
   "publication_refs_checked": [
     "refs/heads/main",
+    "refs/tags/TQNL-Faithful-Vanilla-Tweaks-32x-merged-copper-v3",
     "refs/tags/TQNL-Faithful-Vanilla-Tweaks-mc-1.21-to-1.21.8",
     "refs/tags/VisualWaxedCopperItems-mc-1.21.9-to-26.3"
   ],
-  "commits_checked": 16,
-  "blob_versions_checked": 1387,
+  "commits_checked": 17,
+  "blob_versions_checked": 1392,
   "zip_versions_checked": 31,
   "archived_files_checked": 8018,
   "images_checked_for_identity_metadata": 3699,
@@ -13,5 +14,8 @@
   "unreviewed_personal_emails_found": 0,
   "published_commit_identity": "TQNL / GitHub noreply",
   "retained_attribution": "Public artist handles and Faithful license contact",
-  "scope": "Reachable branch/tag history and staged files, including tracked ZIP contents. Server-retained unreachable objects are outside this scan."
+  "scope": "Published branch/tag history and staged files, including tracked ZIP contents; all historical identity-bearing commit objects were also checked against GitHub.",
+  "historical_identity_bearing_objects_unavailable_from_public_repository": 16,
+  "unauthenticated_old_head_lookup_unavailable": true,
+  "obsolete_repository_history_retained_privately": true
 }
