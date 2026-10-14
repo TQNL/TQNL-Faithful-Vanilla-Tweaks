@@ -1,0 +1,236 @@
+{
+  "original_sha256": "79522b49931f03961a5c997036ec6dabafcaf080c56aa47620b76d5a84dce346",
+  "approved_source_sha256": "72f78c9c51ba8abfcf9fe190fe040e56db138003ea610f187bfdad495635fc15",
+  "merged_sha256": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
+  "original_files_preserved_byte_for_byte_except_pack_metadata": 936,
+  "added_files": 201,
+  "older_format_resource_maps_unchanged": [
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "minecraft_window_or_world_started": false,
+  "checks": [
+    {
+      "version": "1.21.9",
+      "format": [
+        69,
+        0
+      ],
+      "approved_copper_assets": 193,
+      "full_asset_count": 926,
+      "selected_overlays": [
+        "overlay_34_69",
+        "overlay_42",
+        "overlay_42_69",
+        "overlay_46",
+        "overlay_53",
+        "overlay_57",
+        "overlay_58",
+        "overlay_58_69",
+        "overlay_63",
+        "overlay_63_69",
+        "overlay_69",
+        "overlay_69_69",
+        "overlay_34_74",
+        "overlay_copper_items"
+      ],
+      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+    },
+    {
+      "version": "1.21.10",
+      "format": [
+        69,
+        0
+      ],
+      "approved_copper_assets": 193,
+      "full_asset_count": 926,
+      "selected_overlays": [
+        "overlay_34_69",
+        "overlay_42",
+        "overlay_42_69",
+        "overlay_46",
+        "overlay_53",
+        "overlay_57",
+        "overlay_58",
+        "overlay_58_69",
+        "overlay_63",
+        "overlay_63_69",
+        "overlay_69",
+        "overlay_69_69",
+        "overlay_34_74",
+        "overlay_copper_items"
+      ],
+      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+    },
+    {
+      "version": "1.21.11",
+      "format": [
+        75,
+        0
+      ],
+      "approved_copper_assets": 193,
+      "full_asset_count": 926,
+      "selected_overlays": [
+        "overlay_42",
+        "overlay_46",
+        "overlay_53",
+        "overlay_57",
+        "overlay_58",
+        "overlay_63",
+        "overlay_69",
+        "overlay_70",
+        "overlay_copper_items"
+      ],
+      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+    },
+    {
+      "version": "26.1",
+      "format": [
+        84,
+        0
+      ],
+      "approved_copper_assets": 194,
+      "full_asset_count": 806,
+      "selected_overlays": [
+        "overlay_copper_items",
+        "overlay_copper_items_26_1"
+      ],
+      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    },
+    {
+      "version": "26.1.1",
+      "format": [
+        84,
+        0
+      ],
+      "approved_copper_assets": 194,
+      "full_asset_count": 806,
+      "selected_overlays": [
+        "overlay_copper_items",
+        "overlay_copper_items_26_1"
+      ],
+      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    },
+    {
+      "version": "26.1.2",
+      "format": [
+        84,
+        0
+      ],
+      "approved_copper_assets": 194,
+      "full_asset_count": 806,
+      "selected_overlays": [
+        "overlay_copper_items",
+        "overlay_copper_items_26_1"
+      ],
+      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    },
+    {
+      "version": "26.2",
+      "format": [
+        88,
+        0
+      ],
+      "approved_copper_assets": 194,
+      "full_asset_count": 806,
+      "selected_overlays": [
+        "overlay_copper_items",
+        "overlay_copper_items_26_1"
+      ],
+      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    },
+    {
+      "version": "26.3",
+      "format": [
+        97,
+        1
+      ],
+      "approved_copper_assets": 194,
+      "full_asset_count": 806,
+      "selected_overlays": [
+        "overlay_copper_items",
+        "overlay_copper_items_26_1"
+      ],
+      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    }
+  ],
+  "native_checks": [
+    {
+      "client_version": "1.21.9",
+      "client_jar_sha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+      "format": [
+        69,
+        0
+      ],
+      "compatibility": "COMPATIBLE",
+      "selected_overlays": "[overlay_34_69, overlay_42, overlay_42_69, overlay_46, overlay_53, overlay_57, overlay_58, overlay_58_69, overlay_63, overlay_63_69, overlay_69, overlay_69_69, overlay_34_74, overlay_copper_items]",
+      "asset_count": 926,
+      "effective_assets_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+    },
+    {
+      "client_version": "1.21.11",
+      "client_jar_sha1": "ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd",
+      "format": [
+        75,
+        0
+      ],
+      "compatibility": "COMPATIBLE",
+      "selected_overlays": "[overlay_42, overlay_46, overlay_53, overlay_57, overlay_58, overlay_63, overlay_69, overlay_70, overlay_copper_items]",
+      "asset_count": 926,
+      "effective_assets_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+    },
+    {
+      "client_version": "26.3",
+      "client_jar_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "format": [
+        97,
+        1
+      ],
+      "compatibility": "COMPATIBLE",
+      "selected_overlays": "[overlay_copper_items, overlay_copper_items_26_1]",
+      "asset_count": 806,
+      "effective_assets_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+    }
+  ],
+  "installed_sha256_verified": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
+  "removed_standalone_copper_packs": [
+    "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+    "VisualWaxedCopperItems-32x-V3-approved-mc-1.21.9-to-26.3.zip",
+    "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip"
+  ],
+  "blocked_removals": [],
+  "artifact": "dist/TQNL Faithful Vanilla Tweaks.zip"
+}

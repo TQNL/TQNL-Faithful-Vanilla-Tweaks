@@ -16,8 +16,8 @@ from urllib.parse import quote
 import publish_visual_copper as p
 
 ROOT = Path(__file__).resolve().parents[1]
-RECEIPT_COMMIT = 'c9bd0fc37a18954ff9da99e4a908b35219c6ae44'
-LEGACY_BASE = '8514066836949be584ddb1fa68e88fcb2db352e3'
+RECEIPT_COMMIT = '129b4706dfc59b2d63706e793150a4a0548384fc'
+LEGACY_BASE = '77028434d8b2d9960dede0733c2abf19be9d5001'
 LEGACY_TAG = 'TQNL-Faithful-Vanilla-Tweaks-mc-1.21-to-1.21.8'
 COMBINED_TAG = 'VisualWaxedCopperItems-mc-1.21.9-to-26.3'
 

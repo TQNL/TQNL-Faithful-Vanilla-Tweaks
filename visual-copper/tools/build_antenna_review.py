@@ -14,7 +14,7 @@ def read_zip(path):
     # Git snapshot; current distribution contains only combined ZIPs.
     source = path if path.exists() else io.BytesIO(subprocess.check_output([
         'git', '-C', str(b.ROOT.parent), 'show',
-        'ec3cee6d7c447f6564b7d7c1dec740621121c897:' + path.relative_to(b.ROOT.parent).as_posix()]))
+        '1f5f3bb554dda5ed884dc354cc5c79f18a00b7e6:' + path.relative_to(b.ROOT.parent).as_posix()]))
     with zipfile.ZipFile(source) as archive:
         return {name: archive.read(name) for name in archive.namelist()}
 

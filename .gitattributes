@@ -7,3 +7,14 @@ README.md text eol=lf
 visual-copper/docs/*.md text eol=lf
 visual-copper/requirements.txt text eol=lf
 tools/*.py text eol=lf
+
+# Preserve the installed merged compilation exactly.
+assets/** -text
+overlay_*/** -text
+pack.mcmeta -text
+credits.txt -text
+Faithful-32x-License-v4.txt -text
+source-provenance.json -text
+
+# Keep original compilation reports byte-identical to the merged ZIP.
+*.txt -text

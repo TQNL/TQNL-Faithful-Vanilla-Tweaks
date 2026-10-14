@@ -1,8 +1,8 @@
 # Independent offline review of VisualWaxedCopperItems V3
 
-**Historical review of the first V3 build (`ec3cee6`).** Its 27-artifact snapshot is superseded by the owner-approved antenna-border update and combined-only packaging. Current proof is in `build-verification.json`, `antenna-approval.json` and `consolidated-publication.json`; the counts and source hashes below describe the preserved historical review.
+**Historical review of the first V3 build (`1f5f3bb`).** Its 27-artifact snapshot is superseded by the owner-approved antenna-border update and combined-only packaging. Current proof is in `build-verification.json`, `antenna-approval.json` and `consolidated-publication.json`; the counts and source hashes below describe the preserved historical review.
 
-Reviewed on 2026-10-14, against the final rebuilt 27 ZIPs and compilation integration based on repository commit `8514066836949be584ddb1fa68e88fcb2db352e3`.
+Reviewed on 2026-10-14, against the final rebuilt 27 ZIPs and compilation integration based on repository commit `77028434d8b2d9960dede0733c2abf19be9d5001`.
 
 **Result: no unresolved offline correctness findings in the reviewed build.** This is a source, asset, packaging, and overlay review. It does not establish in-game visual acceptance for the new 32x/64x editions. Minecraft was not started by this reviewer.
 

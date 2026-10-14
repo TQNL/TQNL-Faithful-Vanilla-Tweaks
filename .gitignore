@@ -1,0 +1,4 @@
+.work/
+visual-copper/.work/
+__pycache__/
+*.pyc

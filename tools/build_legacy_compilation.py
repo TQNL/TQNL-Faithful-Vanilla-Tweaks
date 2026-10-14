@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'visual-copper/tools'))
 import build as b
 
-BASE = '8514066836949be584ddb1fa68e88fcb2db352e3'
+BASE = '77028434d8b2d9960dede0733c2abf19be9d5001'
 NAME = 'TQNL-Faithful-Vanilla-Tweaks-32x-mc-1.21-to-1.21.8.zip'
 
 

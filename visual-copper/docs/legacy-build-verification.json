@@ -2,7 +2,7 @@
   "artifact": "legacy-dist/TQNL-Faithful-Vanilla-Tweaks-32x-mc-1.21-to-1.21.8.zip",
   "sha256": "c671fa8feff06f6501aff31bd07b5a20f9e5a5128fcc0adfdc62a9bc0bc027cd",
   "bytes": 2059673,
-  "original_commit": "8514066836949be584ddb1fa68e88fcb2db352e3",
+  "original_commit": "77028434d8b2d9960dede0733c2abf19be9d5001",
   "original_files": 938,
   "original_files_preserved_except_metadata": 937,
   "actual_original_overlays": [

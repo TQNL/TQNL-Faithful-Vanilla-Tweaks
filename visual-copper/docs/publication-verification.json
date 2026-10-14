@@ -1,7 +1,7 @@
 {
   "verified_at_utc": "2026-10-14T09:55:45.624970+00:00",
   "repository": "TQNL/TQNL-Faithful-Vanilla-Tweaks",
-  "source_commit": "7304c2df4bb59cee69382e8a858a48d3003a3f74",
+  "source_commit": "213b549c983363efdeaa8ad3c9f36bf0ec439347",
   "release_count": 1,
   "asset_count": 3,
   "releases": [
@@ -9,7 +9,7 @@
       "tag": "VisualWaxedCopperItems-mc-1.21.9-to-26.3",
       "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.9-to-26.3",
       "id": 412562793,
-      "source_commit": "7304c2df4bb59cee69382e8a858a48d3003a3f74",
+      "source_commit": "213b549c983363efdeaa8ad3c9f36bf0ec439347",
       "draft": false,
       "assets": [
         {

@@ -1,0 +1,7 @@
+Credits:
+Vanilla Tweaks: https://vanillatweaks.net/
+Statue repair, masks and adaptation: TQNL
+Faithful 32x: https://faithfulpack.net/
+Official source assets and contributors: see source-provenance.json
+Faithful License: https://faithfulpack.net/license/
+Faithful copper texture artists: Aerod, DMgaming, EachKhaiho, Evorp, HARYA_, Jamiscus, Ozzy, Pomi108, Seirin-Blu, Skottify, TheRandomGamerTRG, axialeaa, eva
