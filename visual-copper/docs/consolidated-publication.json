@@ -1,0 +1,62 @@
+{
+  "verified_at_utc": "2026-10-14T09:54:39.221435+00:00",
+  "repository": "TQNL/TQNL-Faithful-Vanilla-Tweaks",
+  "approved_source_commit": "7304c2df4bb59cee69382e8a858a48d3003a3f74",
+  "deleted_previous_v3_releases": [
+    {
+      "id": 412180570,
+      "tag": "VisualWaxedCopperItems-mc-1.21.9"
+    },
+    {
+      "id": 412182272,
+      "tag": "VisualWaxedCopperItems-mc-1.21.10"
+    },
+    {
+      "id": 412182328,
+      "tag": "VisualWaxedCopperItems-mc-1.21.11"
+    },
+    {
+      "id": 412182394,
+      "tag": "VisualWaxedCopperItems-mc-26.1"
+    },
+    {
+      "id": 412182437,
+      "tag": "VisualWaxedCopperItems-mc-26.1.1"
+    },
+    {
+      "id": 412182480,
+      "tag": "VisualWaxedCopperItems-mc-26.1.2"
+    },
+    {
+      "id": 412182521,
+      "tag": "VisualWaxedCopperItems-mc-26.2"
+    },
+    {
+      "id": 412182581,
+      "tag": "VisualWaxedCopperItems-mc-26.3"
+    },
+    {
+      "id": 412182632,
+      "tag": "VisualWaxedCopperItems-mc-1.21.9-to-26.3"
+    }
+  ],
+  "legacy_release": {
+    "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/TQNL-Faithful-Vanilla-Tweaks-mc-1.21-to-1.21.8",
+    "tag": "TQNL-Faithful-Vanilla-Tweaks-mc-1.21-to-1.21.8",
+    "published_at": "2026-10-14T09:53:54Z",
+    "sha256": "c671fa8feff06f6501aff31bd07b5a20f9e5a5128fcc0adfdc62a9bc0bc027cd",
+    "actual_download_readback_matches": true
+  },
+  "combined_release": {
+    "url": "https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+    "tag": "VisualWaxedCopperItems-mc-1.21.9-to-26.3",
+    "published_at": "2026-10-14T09:54:36Z",
+    "assets": [
+      "VisualWaxedCopperItems-16x-mc-1.21.9-to-26.3.zip",
+      "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip"
+    ]
+  },
+  "published_release_count": 2,
+  "individual_v3_releases": 0
+}
