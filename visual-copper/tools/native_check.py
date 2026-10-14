@@ -184,7 +184,7 @@ def verify_native(cache=None):
                 raise ValueError('Native reader differs from exact expected resource tree: ' + artifact['filename'])
             actual['artifact'] = artifact['filename']
             checks.append(actual)
-        print(version + ': all 3 exact packs and all 3 combined packs parsed and resolved natively', flush=True)
+        print(version + ': all three combined editions parsed and resolved natively', flush=True)
     record['native_reader_checks'] = {'harness_sha256': b.digest((b.ROOT / 'tools/NativePackCheck.java').read_bytes()),
         'method': 'Exact official client JAR metadata parser and native MultiPackResourceManager; full byte tree comparison.',
         'minecraft_window_or_world_started': False, 'checks': checks}

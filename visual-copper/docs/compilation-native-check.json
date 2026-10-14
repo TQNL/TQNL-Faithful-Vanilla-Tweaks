@@ -12,7 +12,7 @@
       "compatibility": "COMPATIBLE",
       "selected_overlays": "[overlay_34_69, overlay_42, overlay_42_69, overlay_46, overlay_53, overlay_57, overlay_58, overlay_58_69, overlay_63, overlay_63_69, overlay_69, overlay_69_69, overlay_34_74]",
       "asset_count": 926,
-      "effective_assets_sha256": "468a03e70187a66047c06350148620f015579f3674e19c04e5576f2304d8f0b3",
+      "effective_assets_sha256": "d853ebdd5036f1972d8c8865e19723819e8a4efc82c2b2800307ef8773957a9b",
       "copper_resources_match_standalone": true
     },
     {
@@ -25,7 +25,7 @@
       "compatibility": "COMPATIBLE",
       "selected_overlays": "[overlay_copper_26]",
       "asset_count": 806,
-      "effective_assets_sha256": "8fd8fe995954d1785166d74c2e8949378e41cecffb1f724690415328d05b36f2",
+      "effective_assets_sha256": "42048bd4aecc530359e3cee537208b1771281b22ffca056f73e9fcf81f615d15",
       "copper_resources_match_standalone": true
     }
   ]

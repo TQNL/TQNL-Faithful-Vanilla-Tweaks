@@ -126,6 +126,10 @@ def _add_native_face(mask, face, scale, band_width):
     x0, y0, x1, y1 = [coordinate * scale for coordinate in face["rect_native"]]
     width, height = x1 - x0, y1 - y0
     draw = ImageDraw.Draw(mask)
+    if face.get("replace_existing_wax"):
+        # Restore the source copper interior before drawing a complete ring.
+        # The old antenna stem used an asymmetric stripe on its side faces.
+        draw.rectangle((x0, y0, x1 - 1, y1 - 1), fill=0)
     ring_width = min(band_width, (min(width, height) - 1) // 2)
     if ring_width:
         draw.rectangle((x0, y0, x1 - 1, y1 - 1), outline=255, width=ring_width)

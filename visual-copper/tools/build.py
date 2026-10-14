@@ -301,7 +301,9 @@ def build():
             derivations[f'{resolution}x/{version}'] = rows
         packs['1.21.9-to-26.3'] = combined(resolution, packs)
         all_packs[resolution] = packs
-        for target, files in packs.items():
+        # Exact versions are assembled in memory for overlay equivalence;
+        # the owner publishes only one combined ZIP per edition.
+        for target, files in [('1.21.9-to-26.3', packs['1.21.9-to-26.3'])]:
             filename = f'VisualWaxedCopperItems-{resolution}x-mc-{target}.zip'
             path = ROOT / 'dist' / filename
             sha = archive(files, path)
@@ -318,7 +320,7 @@ def build():
               'artifacts': artifacts, 'texture_checks': derivations}
     (ROOT / 'docs/build-verification.json').write_bytes(json_bytes(report))
     (ROOT / 'dist/SHA256SUMS.txt').write_text(''.join(f"{a['sha256']}  {a['filename']}\n" for a in artifacts), encoding='utf-8')
-    print(json.dumps({'artifacts': len(artifacts), 'targets': 9, 'editions': 3, 'minecraft_started': False}, indent=2))
+    print(json.dumps({'artifacts': len(artifacts), 'targets': 1, 'editions': 3, 'minecraft_started': False}, indent=2))
     return report
 
 

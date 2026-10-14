@@ -1,0 +1,167 @@
+{
+  "artifact": "legacy-dist/TQNL-Faithful-Vanilla-Tweaks-32x-mc-1.21-to-1.21.8.zip",
+  "sha256": "c671fa8feff06f6501aff31bd07b5a20f9e5a5128fcc0adfdc62a9bc0bc027cd",
+  "bytes": 2059673,
+  "original_commit": "8514066836949be584ddb1fa68e88fcb2db352e3",
+  "original_files": 938,
+  "original_files_preserved_except_metadata": 937,
+  "actual_original_overlays": [
+    "overlay_42",
+    "overlay_46",
+    "overlay_53"
+  ],
+  "pack_metadata": {
+    "pack": {
+      "pack_format": 34,
+      "supported_formats": {
+        "min_inclusive": 34,
+        "max_inclusive": 64
+      },
+      "min_format": 34,
+      "max_format": 64,
+      "description": "TQNL's Faithful 32x / Vanilla Tweaks compilation\nMinecraft 1.21 - 1.21.8"
+    },
+    "overlays": {
+      "entries": [
+        {
+          "directory": "overlay_42",
+          "formats": {
+            "min_inclusive": 42,
+            "max_inclusive": 64
+          },
+          "min_format": 42,
+          "max_format": 64
+        },
+        {
+          "directory": "overlay_46",
+          "formats": {
+            "min_inclusive": 46,
+            "max_inclusive": 64
+          },
+          "min_format": 46,
+          "max_format": 64
+        },
+        {
+          "directory": "overlay_53",
+          "formats": {
+            "min_inclusive": 53,
+            "max_inclusive": 64
+          },
+          "min_format": 53,
+          "max_format": 64
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "resource_format": 34,
+      "overlays": [],
+      "asset_count": 745,
+      "effective_assets_sha256": "1fd1f0a73788e5cafdcfe2676fd1b0fc08d2b0852eed60707dc103791b35a3b6",
+      "original_resources_identical": true
+    },
+    {
+      "versions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "resource_format": 42,
+      "overlays": [
+        "overlay_42"
+      ],
+      "asset_count": 745,
+      "effective_assets_sha256": "87eca10c1995da627ee5fdb0b52dc8865899f23fa4fe67e5ed79b54adaf2af3f",
+      "original_resources_identical": true
+    },
+    {
+      "versions": [
+        "1.21.4"
+      ],
+      "resource_format": 46,
+      "overlays": [
+        "overlay_42",
+        "overlay_46"
+      ],
+      "asset_count": 813,
+      "effective_assets_sha256": "fe391a55655712fc7a1cfcb77e651474d3dc58fa62c8d732905da0ab8a312347",
+      "original_resources_identical": true
+    },
+    {
+      "versions": [
+        "1.21.5"
+      ],
+      "resource_format": 55,
+      "overlays": [
+        "overlay_42",
+        "overlay_46",
+        "overlay_53"
+      ],
+      "asset_count": 926,
+      "effective_assets_sha256": "6f216480ea2a8812657ec50fbd791de8a86903bb0500d9e95ba26fc2716c265a",
+      "original_resources_identical": true
+    },
+    {
+      "versions": [
+        "1.21.6"
+      ],
+      "resource_format": 63,
+      "overlays": [
+        "overlay_42",
+        "overlay_46",
+        "overlay_53"
+      ],
+      "asset_count": 926,
+      "effective_assets_sha256": "6f216480ea2a8812657ec50fbd791de8a86903bb0500d9e95ba26fc2716c265a",
+      "original_resources_identical": true
+    },
+    {
+      "versions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "resource_format": 64,
+      "overlays": [
+        "overlay_42",
+        "overlay_46",
+        "overlay_53"
+      ],
+      "asset_count": 926,
+      "effective_assets_sha256": "6f216480ea2a8812657ec50fbd791de8a86903bb0500d9e95ba26fc2716c265a",
+      "original_resources_identical": true
+    }
+  ],
+  "intent": "Historical base format34 and three populated overlays form a combined compilation; cap this release before1.21.9.",
+  "minecraft_started": false,
+  "sources": [
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21",
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-4",
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-5",
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-6",
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-7",
+    "https://www.minecraft.net/en-us/article/minecraft-java-edition-1-21-8"
+  ],
+  "latest_legacy_client": {
+    "version": {
+      "id": "1.21.8",
+      "name": "1.21.8",
+      "world_version": 4440,
+      "series_id": "main",
+      "protocol_version": 772,
+      "pack_version": {
+        "resource": 64,
+        "data": 81
+      },
+      "build_time": "2025-07-17T12:00:57+00:00",
+      "java_component": "java-runtime-delta",
+      "java_version": 21,
+      "stable": true,
+      "use_editor": false
+    },
+    "mojang_client_sha1": "a19d9badbea944a4369fd0059e53bf7286597576"
+  }
+}

@@ -41,8 +41,9 @@ def check(cache=None):
                 or actual['effective_assets_sha256'] != b.tree_hash(expected)
                 or actual['selected_overlays'] != '[' + ', '.join(selected) + ']'):
             raise ValueError('Compilation overlay reader mismatch')
-        with n.zipfile.ZipFile(b.ROOT / 'dist' / f'VisualWaxedCopperItems-32x-mc-{version}.zip') as archive:
-            copper = {name: archive.read(name) for name in archive.namelist() if name.startswith('assets/')}
+        with n.zipfile.ZipFile(b.ROOT / 'dist' / 'VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip') as archive:
+            combined = {name: archive.read(name) for name in archive.namelist()}
+        copper, _ = b.effective(combined, b.FORMATS[version])
         if any(expected.get(name) != data for name, data in copper.items()):
             raise ValueError('Compilation copper resources differ from standalone')
         actual['copper_resources_match_standalone'] = True

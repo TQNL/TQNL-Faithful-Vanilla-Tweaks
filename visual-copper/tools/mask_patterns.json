@@ -1046,7 +1046,8 @@
           41,
           10
         ],
-        "minimum_native_face_dimension": 2
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
       },
       {
         "part": "antenna_stem",
@@ -1057,7 +1058,8 @@
           43,
           10
         ],
-        "minimum_native_face_dimension": 2
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
       },
       {
         "part": "right_arm",
@@ -1102,6 +1104,54 @@
           31
         ],
         "minimum_native_face_dimension": 4
+      },
+      {
+        "part": "antenna_stem",
+        "side": "west",
+        "rect_native": [
+          37,
+          10,
+          39,
+          14
+        ],
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
+      },
+      {
+        "part": "antenna_stem",
+        "side": "north",
+        "rect_native": [
+          39,
+          10,
+          41,
+          14
+        ],
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
+      },
+      {
+        "part": "antenna_stem",
+        "side": "east",
+        "rect_native": [
+          41,
+          10,
+          43,
+          14
+        ],
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
+      },
+      {
+        "part": "antenna_stem",
+        "side": "south",
+        "rect_native": [
+          43,
+          10,
+          45,
+          14
+        ],
+        "minimum_native_face_dimension": 2,
+        "replace_existing_wax": true
       }
     ],
     "waxed_copper_chest": [

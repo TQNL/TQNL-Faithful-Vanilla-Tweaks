@@ -1,0 +1,383 @@
+{
+  "minecraft_started": false,
+  "published": false,
+  "checks": [
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 32,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 48,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "artifact": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "sha256": "ad11967e00eb723c2e8361f5b00c97676c930ffe9165ea1bafbed03a5a7c5a3e",
+      "bytes": 192818,
+      "combined_versions_verified": 8,
+      "rendering_json_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.10",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "1.21.11",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.1",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.2",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "resolution": 64,
+      "family": "26.3",
+      "texture": "assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+      "changed_pixels": 192,
+      "only_stem_changed": true,
+      "all_six_faces_have_exact_perimeters": true,
+      "alpha_unchanged": true
+    },
+    {
+      "artifact": "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip",
+      "sha256": "f421bf880a14c0b26f64621dca1cd53347bc182e1644e54f573bc487d7e8c7ca",
+      "bytes": 416580,
+      "combined_versions_verified": 8,
+      "rendering_json_unchanged": true
+    }
+  ],
+  "owner_approved": true,
+  "owner_approval_date": "2026-10-14",
+  "scope": "Approved local32x/64x antenna borders; final combined packs resolve exactly the same rendering resources."
+}

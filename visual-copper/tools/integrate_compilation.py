@@ -12,9 +12,10 @@ def integrate():
     repository = b.ROOT.parent
     checks = []
     for directory, target in (('overlay_69', '1.21.9'), ('overlay_copper_26', '26.3')):
-        path = b.ROOT / 'dist' / f'VisualWaxedCopperItems-32x-mc-{target}.zip'
+        path = b.ROOT / 'dist' / 'VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip'
         with zipfile.ZipFile(path) as archive:
-            assets = {n: archive.read(n) for n in archive.namelist() if n.startswith('assets/')}
+            all_files = {n: archive.read(n) for n in archive.namelist()}
+        assets, _ = b.effective(all_files, b.FORMATS[target])
         destination = repository / directory
         existing = b.tree(destination) if destination.exists() else {}
         if set(existing) - set(assets):
