@@ -1,0 +1,1946 @@
+{
+  "source_policy": "Newest official published exact-client exports checked; only differing original artwork retained. Identical texture files are shared across source families.",
+  "families": {
+    "early": {
+      "source_id": "MLHY0Lhu",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        }
+      },
+      "license": "Archive contains an official license URL, not an embedded historical license version; see Legacy-Faithful-64x-links.txt."
+    },
+    "mid": {
+      "source_id": "fhLvGrMc",
+      "textures": {
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        }
+      },
+      "license": "Faithful-64x-License-v3.txt"
+    }
+  },
+  "clients": {
+    "1.17": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.17.1": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.18": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.18.1": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.18.2": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.19": {
+      "family": "early",
+      "official_source_id": "MLHY0Lhu",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.19.1": {
+      "family": "early",
+      "official_source_id": "MLHY0Lhu",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.19.2": {
+      "family": "early",
+      "official_source_id": "MLHY0Lhu",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.19.3": {
+      "family": "early",
+      "official_source_id": "jt6UA0WN",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.19.4": {
+      "family": "early",
+      "official_source_id": "4zMfnpJN",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20": {
+      "family": "early",
+      "official_source_id": null,
+      "fallback": "Original Faithful 1.19 copper artwork backported where no exact official export is listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.1": {
+      "family": "early",
+      "official_source_id": "YOjutORB",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.2": {
+      "family": "early",
+      "official_source_id": "eT3gv5Mk",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.3": {
+      "family": "mid",
+      "official_source_id": "gWTrUifI",
+      "fallback": "1.20.3 and 1.20.4 share resource format 22; the shared overlay uses the newer original Faithful 1.20.4 core copper artwork.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.4": {
+      "family": "mid",
+      "official_source_id": "fhLvGrMc",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.5": {
+      "family": "mid",
+      "official_source_id": null,
+      "fallback": "Nearest 1.20.6 original Faithful source family; no exact official export listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.20.6": {
+      "family": "mid",
+      "official_source_id": "FfTSsnUr",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21": {
+      "family": "mid",
+      "official_source_id": "BauEG3pq",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.1": {
+      "family": "mid",
+      "official_source_id": "BauEG3pq",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.2": {
+      "family": "mid",
+      "official_source_id": "8f92pEm9",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.3": {
+      "family": "mid",
+      "official_source_id": "8f92pEm9",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.4": {
+      "family": "mid",
+      "official_source_id": "M9TLA4q3",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.5": {
+      "family": "mid",
+      "official_source_id": "5cOeToG5",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.6": {
+      "family": null,
+      "official_source_id": null,
+      "fallback": "Nearest 1.21.7/1.21.8 original Faithful source family; no exact official export listed.",
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.7": {
+      "family": null,
+      "official_source_id": "5T6GekBK",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    },
+    "1.21.8": {
+      "family": null,
+      "official_source_id": "5T6GekBK",
+      "fallback": null,
+      "unavailable_old_new_item_textures": "Use the already pinned original modern Faithful texture where the historical export did not contain the later experimental copper item."
+    }
+  },
+  "official_sources": [
+    {
+      "resolution": 64,
+      "version_id": "MLHY0Lhu",
+      "name": "Faithful 64x Beta 5.1 - 2nd Anniversary Update",
+      "game_versions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "version_type": "beta",
+      "date_published": "2022-08-14T20:42:22.659934Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/beta-5.1/Faithful%2064x.zip",
+      "archive_sha256": "f048e5127145a9c74da8fe45706ee1cb748c22397b62b270491b8de0541077ed",
+      "archive_sha512": "36f0ac82ea02c11ace7a42b033f32295997efb86d22980cbc6bf4a673ada03e0d06ada1b5317a26b994af9550520d253b4b1866173a51b33083e2f18e23bb4e7",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "6764d57b2ea4bbc2f89cbe1d61fa69ec5bf399abcf9bed519a9ea7ecdf003d9d",
+          "bytes": 983
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    },
+    {
+      "resolution": 64,
+      "version_id": "YOjutORB",
+      "name": "Faithful 64x - Beta 9",
+      "game_versions": [
+        "1.20.1"
+      ],
+      "version_type": "release",
+      "date_published": "2023-07-05T10:00:29.610234Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/YOjutORB/Faithful%2064x%20-%20Beta%209.zip",
+      "archive_sha256": "7420e04b09c5ff758df781ad1f591a49fe3560c120700f41fb683c62c986d400",
+      "archive_sha512": "a206b477cea63e23ea074c763c3c3c1c1f3c028abb33940be29b63bbb79583837fe81827a23b156427b44d622c2c6875d7d3cef00fab26aa1b163994ade251d5",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "6764d57b2ea4bbc2f89cbe1d61fa69ec5bf399abcf9bed519a9ea7ecdf003d9d",
+          "bytes": 983
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    },
+    {
+      "resolution": 64,
+      "version_id": "jt6UA0WN",
+      "name": "Faithful 64x Beta 7 - The Quality Update",
+      "game_versions": [
+        "1.19.3"
+      ],
+      "version_type": "beta",
+      "date_published": "2023-02-14T14:35:06.958292Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/jt6UA0WN/Faithful%2B64x.zip",
+      "archive_sha256": "5c8513015b6687e3a8642fdc9f40faabf6af7faac3ed60e00a1dddeca915d3ab",
+      "archive_sha512": "85901031dc60b128020657d90120cd5b083834bf85be5d66418510023b5702eb58317df23df97ccd5d5c2007cd05ee47190f994e59bd6d69f7edca812d5f6dce",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "6764d57b2ea4bbc2f89cbe1d61fa69ec5bf399abcf9bed519a9ea7ecdf003d9d",
+          "bytes": 983
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    },
+    {
+      "resolution": 64,
+      "version_id": "4zMfnpJN",
+      "name": "Faithful 64x Beta 8",
+      "game_versions": [
+        "1.19.4"
+      ],
+      "version_type": "beta",
+      "date_published": "2023-04-20T15:27:14.945117Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/4zMfnpJN/Faithful%2064x%20-%20Beta%208.zip",
+      "archive_sha256": "6e71d24b2e2191b0b9d11d685fbc71ba03ae93e7b1b37da8d0fe5be05aafbf00",
+      "archive_sha512": "457104a2f0dea9c27ef95776fde225a1e59cf59141b423c5cce8b8e191b4b99a7f5fd5a7aef0a6dbc1286c0ad0a3c65ddcc22803a786e57c3fac53f69a3a0647",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "6764d57b2ea4bbc2f89cbe1d61fa69ec5bf399abcf9bed519a9ea7ecdf003d9d",
+          "bytes": 983
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    },
+    {
+      "resolution": 64,
+      "version_id": "eT3gv5Mk",
+      "name": "Faithful 64x - Release 1",
+      "game_versions": [
+        "1.20.2"
+      ],
+      "version_type": "release",
+      "date_published": "2023-10-04T14:00:18.114322Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/eT3gv5Mk/Faithful%2064x%20-%20R1.zip",
+      "archive_sha256": "14b58fd21a371999a6864a27d4aee47de4caa6ec0e51b064a5e727a1fdbf5679",
+      "archive_sha512": "d712a64407ce887babbfb53b83c31c9c4c36ab7359cf9efb2e614a6d369ab3d61a2bb095373271554e91402103de3fa150ac6fbdc18a333af5cbd3e0609dfbc3",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "6764d57b2ea4bbc2f89cbe1d61fa69ec5bf399abcf9bed519a9ea7ecdf003d9d",
+          "bytes": 983
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    },
+    {
+      "resolution": 64,
+      "version_id": "BauEG3pq",
+      "name": "Faithful 64x - Release 6",
+      "game_versions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "version_type": "release",
+      "date_published": "2024-09-08T20:23:30.332227Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/BauEG3pq/Faithful%2064x%20-%20Release%206.zip",
+      "archive_sha256": "ba28248289cf0ca2b4021cb90de1e1712dc1d7079f2fe1d250cb03b494c5f79f",
+      "archive_sha512": "049569de400479d33bbc99acb79084b937d37da3e7a16edd8e248b135344eab48c1735bf664d697ce5f2ee15ea0b07f1dead634395a82862d9ab3b2bb8264589",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "fhLvGrMc",
+      "name": "Faithful 64x - Release 3",
+      "game_versions": [
+        "1.20.4"
+      ],
+      "version_type": "release",
+      "date_published": "2024-03-24T13:19:43.054539Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/fhLvGrMc/Faithful%2064x%20-%20Release%203.zip",
+      "archive_sha256": "b55291f25164ba465c882234ee338a13a08d502121089ab3b3821b2fee8bb657",
+      "archive_sha512": "0d3cd8cf6eb8a629aad416412573174f42fa66b0b9c4f46d0e5fef2d97305a34e6e6b270f3d81276e3548fd58a0b755a845d31a778d95e9288731458f1e5453a",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "FfTSsnUr",
+      "name": "Faithful 64x - Release 4",
+      "game_versions": [
+        "1.20.6"
+      ],
+      "version_type": "release",
+      "date_published": "2024-05-26T12:30:52.262745Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/FfTSsnUr/Faithful%2064x%20-%20Release%204.zip",
+      "archive_sha256": "57d3361e4bc5d2d0823024107b2dbba45c51fedc62e51285da6e467ae97cb0d0",
+      "archive_sha512": "68bd2842d075e68b35dd110212b3e36f77ad5e8fcaf12e15f692f50f9508baec0f10996087634f4c3193e37e0c116498db0e0ebb320e77c3aa997b0f1280e309",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "M9TLA4q3",
+      "name": "Faithful 64x - December 2024 Release",
+      "game_versions": [
+        "1.21.4"
+      ],
+      "version_type": "release",
+      "date_published": "2024-12-22T12:26:11.829826Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/M9TLA4q3/Faithful%2064x%20-%20December%202024%20Release.zip",
+      "archive_sha256": "d8501b69d919075ff5c7972ca5b3627429b9a5006ceb01f909f71fcd5acf666e",
+      "archive_sha512": "caab5632074d160f7fe7ff2ec825fb1c056b18320e061a91d1d113661a120bc4ef2b7d2bad442eeaa107a4e796d87a3d4d9cde0566482ce5d0714d845c0220e5",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "8f92pEm9",
+      "name": "Faithful 64x - October 2024 Release",
+      "game_versions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "version_type": "release",
+      "date_published": "2024-10-29T17:46:55.440350Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/8f92pEm9/Faithful%2064x%20-%20October%202024%20Release.zip",
+      "archive_sha256": "5711b98e49a78beeff986c9d9dc44d6a2cc9ea1a3b16db9470c88c101e97ee9e",
+      "archive_sha512": "ae330ad2f175ae20a289b36c6b95bc365079e010c5eaa34700329b53bd121491a0b858e46a159e8eeb30123d7112b6b330a10f137ec0212b480d4c0113e33aa7",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "5T6GekBK",
+      "name": "Faithful 64x - Release 10",
+      "game_versions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "version_type": "release",
+      "date_published": "2025-07-05T13:06:26.078946Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/5T6GekBK/Faithful%2064x%20-%20Release%2010.zip",
+      "archive_sha256": "56bdf9cc9d2162e36844f0911b9b1881eb6eb4839f024be5b995611010a629b5",
+      "archive_sha512": "a720fc0e43453f854a00d153f1b2e25df727525850473b098f2271352949c40770dfb43528449b7d7ea8b24e3a5703285fff61813fa323117e5d5e664719b9f9",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "02347cfa1a3e2b084778e729c5e779c9f8c6c00a221e6e734cd02d1d4ea6aa37",
+          "bytes": 936
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "5cOeToG5",
+      "name": "Faithful 64x - March Release 2025",
+      "game_versions": [
+        "1.21.5"
+      ],
+      "version_type": "release",
+      "date_published": "2025-03-16T15:47:09.074032Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/5cOeToG5/Faithful%2064x%20-%20March%202025%20Release.zip",
+      "archive_sha256": "1a210c6fde0d4c3d9198bb7977e27c63fdbdd84272dbf74b836732b950cf2fe9",
+      "archive_sha512": "deb3ba4ee02957aec977307107f474712ab36273f5dcd18b93babe517d7575a1c6af128ef1db8d011ead7b4d3b8bdc772cfe3e5e7f481d02c37affeb2be40586",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/chiseled_copper.png": {
+          "sha256": "c03fd567aafd24c3bd98456955691655b1e36c29747b2d36ce44f0d127602577",
+          "bytes": 728
+        },
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "b17c71bbd890e25cbc6c3b26a820d3244f32cb6700fcc3ff34af9365e884eff4",
+          "bytes": 830
+        },
+        "assets/minecraft/textures/block/copper_bulb.png": {
+          "sha256": "a73881ab376c98b84ff1d3930a070a393c1d47143d9b2c588cf33ea512d8a7eb",
+          "bytes": 913
+        },
+        "assets/minecraft/textures/block/copper_grate.png": {
+          "sha256": "1db38a090c5a1c82bbe5329ce24d7974bc63579948f2b3dfbb573d377dae4f65",
+          "bytes": 1134
+        },
+        "assets/minecraft/textures/block/copper_trapdoor.png": {
+          "sha256": "06dcfd845195f4f8172b64d4dde24f85f1a2e6081268bcd5fdcca866893af38f",
+          "bytes": 1019
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png": {
+          "sha256": "a49546de8ab515891444d5811bf63ebf0d3084c1c69031851f01986bdf4454d5",
+          "bytes": 1083
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "51157e64125266afc31b619c709c25efa023bdd950e2723a3e0c6107a05f1311",
+          "bytes": 1285
+        },
+        "assets/minecraft/textures/block/exposed_copper_bulb.png": {
+          "sha256": "fbae06b96cbb14c65ee3407ad207b26a3a48c4e060425c706db80e64347002bd",
+          "bytes": 1068
+        },
+        "assets/minecraft/textures/block/exposed_copper_grate.png": {
+          "sha256": "b427b2fa9c39d2854f26af190e611f40fb63788c2ca78df5bb062a7046ee77d5",
+          "bytes": 1246
+        },
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png": {
+          "sha256": "03fa8a56dabd82a1716fad728f9fe00d28acf6cb4f8869ac9fb785aaf21a45f8",
+          "bytes": 1346
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png": {
+          "sha256": "27cc61f6cc5d74c359fa14c6491c7660ad59aba279d06c5decd83ca605949d9b",
+          "bytes": 703
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "aa973157fe8c824aa080c11049c61090d0b913b8a146b1842c255d3e6fcad2e5",
+          "bytes": 1087
+        },
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png": {
+          "sha256": "c94ee9f3bdeeb027772369b743c11bcfdc5ea296a142766e0ed6952db21da7bf",
+          "bytes": 920
+        },
+        "assets/minecraft/textures/block/oxidized_copper_grate.png": {
+          "sha256": "98d7f5fb41c3aa1a74709aa7c8c5bf9ab49b24e1831fd603bf0826a5da226b04",
+          "bytes": 1136
+        },
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png": {
+          "sha256": "478fd9cc153e8021746e6ed1c133b58ecfb9737f47d46326e890d30f1093dd10",
+          "bytes": 1197
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png": {
+          "sha256": "d4c5e11ced209419969f16b6d17a4e60a00470a4bad57acf904229c3341e21e2",
+          "bytes": 724
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "6d07d8f0c9dfac8399be62ee95509cd6896b62b5ffa41938c4d474b9df19dad0",
+          "bytes": 3000
+        },
+        "assets/minecraft/textures/block/weathered_copper_bulb.png": {
+          "sha256": "43ee7ec973662ba74a30a5b1fe3d28828f30258358bd1ac6b33957eae322280b",
+          "bytes": 1010
+        },
+        "assets/minecraft/textures/block/weathered_copper_grate.png": {
+          "sha256": "df164b7fbe24fba96e4187e2137c2fe9cc2187889fe95c435e3ec7648d3d0df6",
+          "bytes": 1226
+        },
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png": {
+          "sha256": "aad74b54c830b7e714ff690e1d253c3449335f5c97ab7aa02e0098ec4a6cf41e",
+          "bytes": 1286
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        },
+        "assets/minecraft/textures/item/copper_door.png": {
+          "sha256": "a8c8c06bc9871ec895d192cce82e5f54521aa5fd05fb1b765695c5435bc8da5b",
+          "bytes": 513
+        },
+        "assets/minecraft/textures/item/exposed_copper_door.png": {
+          "sha256": "e6a88cb553623eabe10ea55f29fd125ea6e81e7d4acdb9f44356e8f7c1fb7bc0",
+          "bytes": 649
+        },
+        "assets/minecraft/textures/item/oxidized_copper_door.png": {
+          "sha256": "cf98428781ace13f0964e93786b6ee0381f8bbd777c825a64274ee00467d093a",
+          "bytes": 617
+        },
+        "assets/minecraft/textures/item/weathered_copper_door.png": {
+          "sha256": "9d9bfa165cb4ac6b98b316b8a37b94f3217ffd366dbad05aeac81c75d8c28261",
+          "bytes": 617
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png"
+      ],
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "resolution": 64,
+      "version_id": "gWTrUifI",
+      "name": "Faithful 64x - Release 2",
+      "game_versions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "version_type": "release",
+      "date_published": "2023-12-06T12:18:01.291728Z",
+      "url": "https://cdn.modrinth.com/data/r4GILswZ/versions/gWTrUifI/Faithful%2064x.zip",
+      "archive_sha256": "f6656a127cf6c5622dbd95eb90fdd6c0f99656406e4082f4eb53f9746fc79d00",
+      "archive_sha512": "9af28d0e3da0031fd45107c5a23d079e7e01964de2c3e3be28ac483e077efc0e28b04081b7f3271a2d724f2e64789c70096046568364e9085305bc9f2c11a22c",
+      "comparison_baseline": "approved-original-Faithful-64x-1.21.10",
+      "textures": {
+        "assets/minecraft/textures/block/copper_block.png": {
+          "sha256": "9cb5f973dfe78831b05752d98c43e00ad0687dfc0937b652dfa83f59b63a7e4c",
+          "bytes": 698
+        },
+        "assets/minecraft/textures/block/cut_copper.png": {
+          "sha256": "599f519a8163169ac03cc615e847126f9220eac0ada9e7773734639f41e4cbf3",
+          "bytes": 746
+        },
+        "assets/minecraft/textures/block/exposed_copper.png": {
+          "sha256": "c5a2fff58024e1238efa565093caf7d31799ca255799cc524909b7cf961375a8",
+          "bytes": 1254
+        },
+        "assets/minecraft/textures/block/exposed_cut_copper.png": {
+          "sha256": "f4a181db1e9362a593548e614c26f245be42c6cbe3c00bb43e4b7ff6f3a08749",
+          "bytes": 1241
+        },
+        "assets/minecraft/textures/block/lightning_rod.png": {
+          "sha256": "0eff895dedd6a45f6c989d578f8243ef62d2a4129fbfb870188f55f7af374552",
+          "bytes": 564
+        },
+        "assets/minecraft/textures/block/oxidized_copper.png": {
+          "sha256": "8e4c0103b861ed6b769bba1e8c6b8a00b22ee03440f4e7824097037b2486a1a8",
+          "bytes": 1184
+        },
+        "assets/minecraft/textures/block/oxidized_cut_copper.png": {
+          "sha256": "c70ff59d432ffc5d690c6d27aa4bfda3b3e18b73d37fe4f083d798b563b44f1c",
+          "bytes": 1183
+        },
+        "assets/minecraft/textures/block/weathered_copper.png": {
+          "sha256": "5171d7a25cb6df97b2f916c0c3fad0b6a105b925c680aa9bedd1680bc7f330af",
+          "bytes": 2972
+        },
+        "assets/minecraft/textures/block/weathered_cut_copper.png": {
+          "sha256": "5402c159a7da5a2cd48192d052d7fbeea2f10c51e2018529b7836e143d00f863",
+          "bytes": 1173
+        }
+      },
+      "missing_needed": [
+        "assets/minecraft/textures/block/chiseled_copper.png",
+        "assets/minecraft/textures/block/copper_bars.png",
+        "assets/minecraft/textures/block/copper_bulb.png",
+        "assets/minecraft/textures/block/copper_grate.png",
+        "assets/minecraft/textures/block/copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_chiseled_copper.png",
+        "assets/minecraft/textures/block/exposed_copper_bars.png",
+        "assets/minecraft/textures/block/exposed_copper_bulb.png",
+        "assets/minecraft/textures/block/exposed_copper_grate.png",
+        "assets/minecraft/textures/block/exposed_copper_trapdoor.png",
+        "assets/minecraft/textures/block/exposed_lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_chiseled_copper.png",
+        "assets/minecraft/textures/block/oxidized_copper_bars.png",
+        "assets/minecraft/textures/block/oxidized_copper_bulb.png",
+        "assets/minecraft/textures/block/oxidized_copper_grate.png",
+        "assets/minecraft/textures/block/oxidized_copper_trapdoor.png",
+        "assets/minecraft/textures/block/oxidized_lightning_rod.png",
+        "assets/minecraft/textures/block/weathered_chiseled_copper.png",
+        "assets/minecraft/textures/block/weathered_copper_bars.png",
+        "assets/minecraft/textures/block/weathered_copper_bulb.png",
+        "assets/minecraft/textures/block/weathered_copper_grate.png",
+        "assets/minecraft/textures/block/weathered_copper_trapdoor.png",
+        "assets/minecraft/textures/block/weathered_lightning_rod.png",
+        "assets/minecraft/textures/entity/chest/copper.png",
+        "assets/minecraft/textures/entity/chest/copper_exposed.png",
+        "assets/minecraft/textures/entity/chest/copper_oxidized.png",
+        "assets/minecraft/textures/entity/chest/copper_weathered.png",
+        "assets/minecraft/textures/entity/copper_golem/copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/exposed_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/oxidized_copper_golem.png",
+        "assets/minecraft/textures/entity/copper_golem/weathered_copper_golem.png",
+        "assets/minecraft/textures/item/copper_chain.png",
+        "assets/minecraft/textures/item/copper_door.png",
+        "assets/minecraft/textures/item/copper_lantern.png",
+        "assets/minecraft/textures/item/exposed_copper_chain.png",
+        "assets/minecraft/textures/item/exposed_copper_door.png",
+        "assets/minecraft/textures/item/exposed_copper_lantern.png",
+        "assets/minecraft/textures/item/oxidized_copper_chain.png",
+        "assets/minecraft/textures/item/oxidized_copper_door.png",
+        "assets/minecraft/textures/item/oxidized_copper_lantern.png",
+        "assets/minecraft/textures/item/weathered_copper_chain.png",
+        "assets/minecraft/textures/item/weathered_copper_door.png",
+        "assets/minecraft/textures/item/weathered_copper_lantern.png"
+      ],
+      "different_from_approved_baseline": [
+        "assets/minecraft/textures/block/copper_block.png",
+        "assets/minecraft/textures/block/cut_copper.png",
+        "assets/minecraft/textures/block/exposed_copper.png",
+        "assets/minecraft/textures/block/lightning_rod.png",
+        "assets/minecraft/textures/block/oxidized_copper.png",
+        "assets/minecraft/textures/block/weathered_copper.png"
+      ],
+      "license_files": []
+    }
+  ],
+  "licenses": [
+    "Legacy-Faithful-64x-links.txt",
+    "Legacy-Faithful-64x-License-v3.txt"
+  ]
+}

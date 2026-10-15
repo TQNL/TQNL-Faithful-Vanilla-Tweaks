@@ -78,3 +78,9 @@ python tools/build_legacy_compilation.py
 The build uses the pinned minimal source files under `visual-copper/source`; ZIPs are deterministic. Native checks need a Java 25+ JDK and download hash-verified official client JARs/libraries into `visual-copper/.work`, without starting a game or creating a profile/world. The build itself needs only Python and Pillow.
 
 The previous V2 standalone pack is retained in the separate [Faithful Add-ons repository](https://github.com/TQNL/TQNL-Faithful-Add-ons/releases/tag/VisualWaxedCopperItems).
+
+## Copper add-on for Minecraft 1.17 and later
+
+The standalone 32x/64x copper add-on also has a combined **1.17–26.3** build, reaching back to copper's introduction. It uses legacy item models for older clients and overlays for later copper items and the 1.21.4 item-definition transition. Its modern 1.21.9–26.3 resources match the reviewed V3 packs byte for byte. The full compilation above retains its own 1.21–26.3 interval, and the 16x edition is unchanged.
+
+Run `python visual-copper/tools/build_legacy_copper.py` after the normal build. Before 1.20.2, clients support only a single pack-format number, so the combined ZIP necessarily shows a compatibility warning on 1.18–1.20.1. See [compatibility and verification scope](visual-copper/docs/legacy-copper-compatibility.md).
