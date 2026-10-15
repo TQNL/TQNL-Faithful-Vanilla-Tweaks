@@ -41,13 +41,26 @@
   ],
   "minecraft_started": false,
   "preserved_16x_and_full_compilation_archives": true,
-  "pre_1_20_2_warning": "Only 1.17/1.17.1 match the root format 7. Formats 8-15 ignore supported_formats and show a warning even though the legacy model resources can load.",
+  "declared_pack_format": 15,
+  "declared_min_format": [
+    7,
+    0
+  ],
+  "declared_max_format": [
+    97,
+    1
+  ],
+  "functional_legacy_resource_min_format": [
+    7,
+    0
+  ],
+  "pre_1_20_2_warning": "1.17-1.19.4 ignore supported_formats and show TOO_NEW for the legacy pack_format marker 15, requiring manual enabling. Their legacy models remain compatible, and the declared supported range begins at format 7. 1.20/1.20.1 match format 15. Modern native readers require the legacy pack_format marker to be at least 15, not the minimum supported format.",
   "artifacts": [
     {
       "resolution": 32,
       "filename": "VisualWaxedCopperItems-32x-mc-1.17-to-26.3.zip",
-      "sha256": "f07e2b91d29122c34d8f0d2c59b80af84cf6d1ddb2661188919c8bac04d87b47",
-      "bytes": 253069,
+      "sha256": "0dfbb8175d0a883d079ed087f03f0caa3002096474a0cfcfa36d505b153846e2",
+      "bytes": 253151,
       "files": 205,
       "modern_reference_sha256": "528afc4c0ba81dd0d4ce0658f66818fa32a3d492437ae060db66c4b85491550f",
       "checks": [
@@ -79,7 +92,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.17.1",
@@ -109,7 +123,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18",
@@ -139,7 +154,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18.1",
@@ -169,7 +185,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18.2",
@@ -199,7 +216,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19",
@@ -229,7 +247,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.1",
@@ -259,7 +278,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.2",
@@ -289,7 +309,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.3",
@@ -319,7 +340,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.4",
@@ -349,7 +371,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.20",
@@ -379,7 +402,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.1",
@@ -409,7 +433,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.2",
@@ -439,7 +464,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "3a211ec1bc4c4b723cb9d12346cda55197b147f0a9da282eb08081cb4db1f55a",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.3",
@@ -491,7 +517,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.4",
@@ -543,7 +570,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.5",
@@ -595,7 +623,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.6",
@@ -647,7 +676,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21",
@@ -699,7 +729,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.1",
@@ -751,7 +782,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.2",
@@ -803,7 +835,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.3",
@@ -855,7 +888,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "8a769e519f40dd7d0c419b570661238f7417878aa205b9acb901bf7823146fae",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.4",
@@ -908,7 +942,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "af5296d74144378a4aa222f71b217dfa011bc6172316266dd53dc7fe186e561f",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.5",
@@ -961,7 +996,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "af5296d74144378a4aa222f71b217dfa011bc6172316266dd53dc7fe186e561f",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.6",
@@ -1014,7 +1050,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "af5296d74144378a4aa222f71b217dfa011bc6172316266dd53dc7fe186e561f",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.7",
@@ -1067,7 +1104,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "af5296d74144378a4aa222f71b217dfa011bc6172316266dd53dc7fe186e561f",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.8",
@@ -1120,7 +1158,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "af5296d74144378a4aa222f71b217dfa011bc6172316266dd53dc7fe186e561f",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.9",
@@ -1198,7 +1237,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.10",
@@ -1276,7 +1316,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.11",
@@ -1354,7 +1395,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1",
@@ -1433,7 +1475,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1.1",
@@ -1512,7 +1555,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1.2",
@@ -1591,7 +1635,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.2",
@@ -1670,7 +1715,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.3",
@@ -1749,7 +1795,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         }
       ],
       "overlays": [
@@ -1818,8 +1865,8 @@
     {
       "resolution": 64,
       "filename": "VisualWaxedCopperItems-64x-mc-1.17-to-26.3.zip",
-      "sha256": "458676e44c09c933530cafaf9486b46700438a622f4602351f1b626a1536cf64",
-      "bytes": 500472,
+      "sha256": "abd16134187b3b86389a52758512f54a2e595824b165d2fe26e1243fe75b188f",
+      "bytes": 500554,
       "files": 274,
       "modern_reference_sha256": "abe9cffde9e2a5a96088cb528df3f3feb38d6676ac1e677e2dad226e3f56fcd1",
       "checks": [
@@ -1851,7 +1898,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.17.1",
@@ -1881,7 +1929,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18",
@@ -1911,7 +1960,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18.1",
@@ -1941,7 +1991,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.18.2",
@@ -1971,7 +2022,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19",
@@ -2001,7 +2053,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.1",
@@ -2031,7 +2084,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.2",
@@ -2061,7 +2115,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.3",
@@ -2091,7 +2146,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.19.4",
@@ -2121,7 +2177,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": true,
+          "declared_metadata_compatibility": false
         },
         {
           "version": "1.20",
@@ -2151,7 +2208,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.1",
@@ -2181,7 +2239,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": true
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.2",
@@ -2211,7 +2270,8 @@
           "asset_count": 41,
           "effective_assets_sha256": "640cf768f1456d6f439665c42964defcee2a0c2f9114081eedf5b3b3d72b935b",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.3",
@@ -2263,7 +2323,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.4",
@@ -2315,7 +2376,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.5",
@@ -2367,7 +2429,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.20.6",
@@ -2419,7 +2482,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21",
@@ -2471,7 +2535,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.1",
@@ -2523,7 +2588,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.2",
@@ -2575,7 +2641,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.3",
@@ -2627,7 +2694,8 @@
           "asset_count": 85,
           "effective_assets_sha256": "187969a12e84d0bd7f1165e14193061ec820eb2106ebfdbae8bc90eeb92b1285",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.4",
@@ -2680,7 +2748,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "3e7bd9a77d28554224af9860e71cc237effd859814ad61585d68c22895508d5e",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.5",
@@ -2733,7 +2802,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "3e7bd9a77d28554224af9860e71cc237effd859814ad61585d68c22895508d5e",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.6",
@@ -2787,7 +2857,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "60f4786e2ad354068cb94a319f1c952481f0172ddc38e2bbb5b5aceb7089802d",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.7",
@@ -2841,7 +2912,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "60f4786e2ad354068cb94a319f1c952481f0172ddc38e2bbb5b5aceb7089802d",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.8",
@@ -2895,7 +2967,8 @@
           "asset_count": 121,
           "effective_assets_sha256": "60f4786e2ad354068cb94a319f1c952481f0172ddc38e2bbb5b5aceb7089802d",
           "modern_reviewed_resources_byte_identical": false,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.9",
@@ -2974,7 +3047,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "70b0a92616821e355e5537a665ec194b84c1ab9c8bb8fb753b9d15a1968fd375",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.10",
@@ -3053,7 +3127,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "70b0a92616821e355e5537a665ec194b84c1ab9c8bb8fb753b9d15a1968fd375",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "1.21.11",
@@ -3133,7 +3208,8 @@
           "asset_count": 193,
           "effective_assets_sha256": "eac1f89e1503609cc9a98fe628c637c396b106442f38b3e763a3be4350fcea3e",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1",
@@ -3214,7 +3290,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1.1",
@@ -3295,7 +3372,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.1.2",
@@ -3376,7 +3454,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.2",
@@ -3458,7 +3537,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "d58d8a519efab869d061a8f71e6504edb1d751d5aad4065e9c83e3532abd849c",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         },
         {
           "version": "26.3",
@@ -3540,7 +3620,8 @@
           "asset_count": 194,
           "effective_assets_sha256": "d58d8a519efab869d061a8f71e6504edb1d751d5aad4065e9c83e3532abd849c",
           "modern_reviewed_resources_byte_identical": true,
-          "pre_1_20_2_compatibility_warning": false
+          "pre_1_20_2_compatibility_warning": false,
+          "declared_metadata_compatibility": true
         }
       ],
       "overlays": [

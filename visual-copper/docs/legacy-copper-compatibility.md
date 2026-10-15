@@ -19,7 +19,9 @@ The audited older 32x source pixels are identical to the modern source. Historic
 
 No exact official 64x export was found on the audited distribution channels for 1.17/1.18, so those clients receive a native-UV backport of original Faithful 1.19 copper art. The missing exact 1.20, 1.20.5 and 1.21.6 listings use the corresponding neighboring source family. Minecraft 1.20.3 and 1.20.4 share resource format 22, so one combined ZIP cannot select their differing historical textures separately; both use the newer original 1.20.4 family. Experimental copper items absent from an older Faithful export use the already pinned later original Faithful artwork. These source choices and archive license links are recorded in `source/legacy-faithful-sources.json` and in the ZIP's provenance.
 
-The default root resources use format 7 and the legacy item-model layout, because overlays were introduced only in 1.20.2. A client before 1.20.2 ignores the declared version range and recognizes only one `pack_format`. Therefore **1.18–1.20.1 display an unavoidable compatibility warning** for the shared ZIP. Formats 7–97 are declared through `supported_formats`, and modern readers also receive `min_format` 7 and `max_format` 97.1. All overlay entries declare both legacy `formats` and modern format bounds.
+The root uses the legacy item-model layout for functional loading back to format 7 / 1.17. Its metadata declares **`pack_format` 15**, `supported_formats` 7–97, `min_format` 7 and `max_format` 97.1. Modern native readers require the legacy `pack_format` marker to be at least 15; they permit the declared minimum to reach back to 7. That marker must also fall within the supported range. These exact declarations were checked with native readers instead of inferring the constraint from the error wording.
+
+Clients before 1.20.2 ignore the range and recognize only that single legacy marker. Therefore **1.17–1.19.4 show an unavoidable “too new” compatibility warning and require manual enabling**, while 1.20/1.20.1 match format 15. The legacy item models and declared supported interval still reach 1.17; the warning comes from those clients' single-marker check. All overlay entries declare both legacy `formats` and modern format bounds.
 
 There are no blockstates, block models, block textures or entity textures in the add-on. Placed copper blocks and live copper golems retain their native or lower-priority pack resources.
 
@@ -40,3 +42,7 @@ The first command reproduces the reviewed modern V3 packs. The second reads the 
 - [Minecraft Java 1.20.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-2): resource overlays and supported format ranges, including older clients' single-format behavior.
 - [Snapshot 25w31a resource-pack changes](https://www.minecraft.net/en-us/article/minecraft-snapshot-25w31a): legacy and modern format declarations for ranges that include old formats.
 - [Faithful downloads](https://faithfulpack.net/downloads), with exact original texture sources and contributors retained in each ZIP's provenance and license files.
+
+## Independent native results
+
+Both final archives passed the exact native pack loaders on all 34 stable clients (68 native checks), plus 68 independent recursive model/texture reference checks. Pre-1.21.9 probes also parsed the supplied models and available item definitions with native deserializers. Earlier clients report the documented TOO_NEW warning; all format-15-or-later clients report COMPATIBLE. See [the complete record](legacy-copper-native-verification.json).

@@ -1,2 +1,2 @@
-f07e2b91d29122c34d8f0d2c59b80af84cf6d1ddb2661188919c8bac04d87b47  VisualWaxedCopperItems-32x-mc-1.17-to-26.3.zip
-458676e44c09c933530cafaf9486b46700438a622f4602351f1b626a1536cf64  VisualWaxedCopperItems-64x-mc-1.17-to-26.3.zip
+0dfbb8175d0a883d079ed087f03f0caa3002096474a0cfcfa36d505b153846e2  VisualWaxedCopperItems-32x-mc-1.17-to-26.3.zip
+abd16134187b3b86389a52758512f54a2e595824b165d2fe26e1243fe75b188f  VisualWaxedCopperItems-64x-mc-1.17-to-26.3.zip

@@ -17,6 +17,8 @@ ROOT = b.ROOT
 DEFAULT_MANIFEST = ROOT / 'source/minecraft/legacy-client-manifest.json'
 OUTPUT_REPORT = ROOT / 'docs/legacy-copper-build-verification.json'
 EARLIEST_FORMAT = (7, 0)
+DECLARED_MINIMUM = (7, 0)
+LEGACY_PACK_MARKER = 15
 LATEST_FORMAT = (97, 1)
 
 
@@ -36,7 +38,10 @@ def effective(files, fmt):
     major, minor = tuple(fmt)
     minimum = b.bound(metadata['pack']['min_format'])
     maximum = b.bound(metadata['pack']['max_format'], True)
-    if not minimum <= (major, minor) <= maximum:
+    # Pre-overlay clients ignore supported_formats and can manually enable
+    # this pack's compatible legacy models despite their TOO_NEW warning.
+    legacy_manual_enable = major < 18 and EARLIEST_FORMAT <= (major, minor) <= maximum
+    if not legacy_manual_enable and not minimum <= (major, minor) <= maximum:
         raise ValueError('Requested format outside supported interval')
     assets = {name: data for name, data in files.items() if name.startswith('assets/')}
     selected = []
@@ -185,9 +190,9 @@ def build_edition(resolution, clients):
     files = {name: data for name, data in source.items()
              if not name.startswith('assets/') and not name.startswith(source_prefixes)}
     files['pack.mcmeta'] = b.json_bytes({'pack': {
-        'pack_format': 7,
-        'supported_formats': {'min_inclusive': 7, 'max_inclusive': 97},
-        'min_format': [7, 0], 'max_format': [97, 1],
+        'pack_format': LEGACY_PACK_MARKER,
+        'supported_formats': {'min_inclusive': DECLARED_MINIMUM[0], 'max_inclusive': LATEST_FORMAT[0]},
+        'min_format': list(DECLARED_MINIMUM), 'max_format': list(LATEST_FORMAT),
         'description': f'Visual Waxed Copper Items V3 - Faithful {resolution}x | 1.17-26.3'},
         'overlays': {'entries': []}})
     metadata = json.loads(files['pack.mcmeta'])
@@ -220,8 +225,10 @@ def build_edition(resolution, clients):
         'Later copper items and item-definition schemas are selected through format overlays.\n'
         'Modern 1.21.9-26.3 item textures and rendering resources match the reviewed V3 packs exactly.\n'
         'Placed blocks, their textures, and live copper golems are unchanged.\n\n'
-        'Before Minecraft 1.20.2, clients only recognize one pack_format. The root uses format 7\n'
-        '(1.17/1.17.1), so later pre-1.20.2 clients show an unavoidable compatibility warning.\n'
+        'Before Minecraft 1.20.2, clients only recognize one pack_format. The root uses format 15\n'
+        '(1.20/1.20.1), because modern range readers require this legacy marker to be at least 15.\n'
+        'The declared supported range still begins at format 7 / 1.17. Minecraft 1.17-1.19.4\n'
+        'therefore show an unavoidable compatibility warning and require manual enabling.\n'
         'Those clients can still load the legacy item models; the warning is not a green compatibility claim.\n'
         'See the release documentation for exact native, structural and visual test scope.\n\n'
         'Credits: Vanilla Tweaks, Faithful artists and TQNL. See credits.txt, source-provenance.json\n'
@@ -260,7 +267,8 @@ def build_edition(resolution, clients):
                        'selected_overlays': selected, 'asset_count': len(actual),
                        'effective_assets_sha256': b.tree_hash(actual),
                        'modern_reviewed_resources_byte_identical': client['version'] in b.FORMATS,
-                       'pre_1_20_2_compatibility_warning': 7 < client['format'][0] < 18})
+                       'pre_1_20_2_compatibility_warning': client['format'][0] < 15,
+                       'declared_metadata_compatibility': client['format'][0] >= 15})
     name = f'VisualWaxedCopperItems-{resolution}x-mc-1.17-to-26.3.zip'
     target = ROOT / 'dist' / name
     archive_sha = b.archive(files, target, compression_level=9)
@@ -284,7 +292,11 @@ def build(manifest=DEFAULT_MANIFEST):
               'manifest_sha256': b.digest(manifest.read_bytes()),
               'full_releases': [client['version'] for client in clients],
               'minecraft_started': False, 'preserved_16x_and_full_compilation_archives': True,
-              'pre_1_20_2_warning': 'Only 1.17/1.17.1 match the root format 7. Formats 8-15 ignore supported_formats and show a warning even though the legacy model resources can load.',
+              'declared_pack_format': 15,
+              'declared_min_format': [7, 0],
+              'declared_max_format': [97, 1],
+              'functional_legacy_resource_min_format': [7, 0],
+              'pre_1_20_2_warning': '1.17-1.19.4 ignore supported_formats and show TOO_NEW for the legacy pack_format marker 15, requiring manual enabling. Their legacy models remain compatible, and the declared supported range begins at format 7. 1.20/1.20.1 match format 15. Modern native readers require the legacy pack_format marker to be at least 15, not the minimum supported format.',
               'artifacts': artifacts}
     OUTPUT_REPORT.write_bytes(b.json_bytes(report))
     (ROOT/'dist/SHA256SUMS-1.17-to-26.3.txt').write_text(''.join(
