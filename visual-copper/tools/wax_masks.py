@@ -9,7 +9,8 @@ mask_for_texture(name, original_image, scale, band_width) returns (mask, gold):
   mask: Pillow L image, 0 or 255, at the supplied image's exact dimensions.
   gold: Pillow RGBA image at those dimensions, transparent outside the mask.
         Selected RGB is the gold color and alpha equals the source alpha.
-The caller should replace only RGB at mask positions and retain source alpha.
+The caller retains original alpha, except for the explicit exterior gold stroke
+on bars, chain and lantern sprites, matching Vanilla Tweaks' native method.
 """
 
 from functools import lru_cache
@@ -52,52 +53,33 @@ def _seed_mask(template):
     return result
 
 
-def _generated_icon_mask(source, band_width):
-    """Outline the actual Faithful sprite, retaining copper in thin pieces.
+def _generated_icon_mask(source, band_width, outward=True):
+    """Trace the actual Faithful silhouette, leaving enclosed holes clear.
 
-    The sprites moved and changed width relative to the historical examples.
-    An outer row envelope preserves the marker's frame shape without adding
-    gold to internal holes. Connected-component coverage is capped at one half
-    so a chain link only one/two source pixels thick still retains copper.
+    Native VT adds gold outside bars, chains and lanterns, retaining every
+    copper pixel. Doors instead recolor the existing outer frame inward. A
+    padded four-neighbor flood fill distinguishes exterior from enclosed holes;
+    no arbitrary component budget or directional truncation is applied.
     """
     foreground = source.getchannel("A").point(lambda alpha: 255 if alpha else 0)
-    envelope = Image.new("L", source.size)
-    hull = ImageDraw.Draw(envelope)
-    foreground_pixels = foreground.load()
-    for y in range(source.height):
-        opaque_x = [x for x in range(source.width) if foreground_pixels[x, y]]
-        if opaque_x:
-            hull.line((min(opaque_x), y, max(opaque_x), y), fill=255)
-    # Padding makes image-edge metal an actual outer edge as well.
-    padded = ImageOps.expand(envelope, border=band_width, fill=0)
-    interior = padded.filter(ImageFilter.MinFilter(2 * band_width + 1)).crop(
-        (band_width, band_width, source.width + band_width, source.height + band_width))
-    candidate = ImageChops.multiply(ImageChops.subtract(envelope, interior), foreground)
-    candidate_pixels = candidate.load()
-    result = Image.new("L", source.size)
-    selected = result.load()
-    visited = set()
-    for y in range(source.height):
-        for x in range(source.width):
-            if not foreground_pixels[x, y] or (x, y) in visited:
-                continue
-            pending, component = [(x, y)], []
-            visited.add((x, y))
-            while pending:
-                px, py = pending.pop()
-                component.append((px, py))
-                for nx, ny in ((px - 1, py), (px + 1, py), (px, py - 1), (px, py + 1)):
-                    if (0 <= nx < source.width and 0 <= ny < source.height and
-                            foreground_pixels[nx, ny] and (nx, ny) not in visited):
-                        visited.add((nx, ny))
-                        pending.append((nx, ny))
-            edge = sorted(point for point in component if candidate_pixels[point])
-            budget = len(component) // 2
-            # Stable left-to-right priority gives a continuous gold accent on
-            # extremely thin links, with the opposing metal edge retained.
-            for point in edge[:budget]:
-                selected[point] = 255
-    return result
+    padded = ImageOps.expand(foreground, border=band_width + 1, fill=0)
+    exterior = Image.new('L', padded.size)
+    pixels, outside = padded.load(), exterior.load()
+    pending = [(0, 0)]
+    outside[0, 0] = 255
+    while pending:
+        x, y = pending.pop()
+        for nx, ny in ((x-1, y), (x+1, y), (x, y-1), (x, y+1)):
+            if (0 <= nx < padded.width and 0 <= ny < padded.height
+                    and not pixels[nx, ny] and not outside[nx, ny]):
+                outside[nx, ny] = 255
+                pending.append((nx, ny))
+    if outward:
+        result = ImageChops.multiply(padded.filter(ImageFilter.MaxFilter(2*band_width+1)), exterior)
+    else:
+        result = ImageChops.multiply(exterior.filter(ImageFilter.MaxFilter(2*band_width+1)), padded)
+    pad = band_width + 1
+    return result.crop((pad, pad, pad+source.width, pad+source.height))
 
 
 def _resize_old_border(seed, final_size, ratio, band_width):
@@ -130,15 +112,12 @@ def _add_native_face(mask, face, scale, band_width):
         # Restore the source copper interior before drawing a complete ring.
         # The old antenna stem used an asymmetric stripe on its side faces.
         draw.rectangle((x0, y0, x1 - 1, y1 - 1), fill=0)
-    ring_width = min(band_width, (min(width, height) - 1) // 2)
+    # Leave a copper core wherever the face has enough room. A two-pixel-wide
+    # face at 32x has no room for a core plus two 1px edges; its thin surface is
+    # fully waxed rather than receiving an arbitrary one-sided accent.
+    ring_width = min(band_width, max(1, (min(width, height) - 1) // 2))
     if ring_width:
         draw.rectangle((x0, y0, x1 - 1, y1 - 1), outline=255, width=ring_width)
-    elif width <= height:
-        # A 1-native-pixel chest latch side is 2 pixels wide at 32x; a complete
-        # 1px ring would turn it entirely gold. A single long edge leaves metal.
-        draw.rectangle((x0, y0, x0, y1 - 1), fill=255)
-    else:
-        draw.rectangle((x0, y0, x1 - 1, y0), fill=255)
 
 
 def _added_gold_color(x, y, ratio, palette):
@@ -152,7 +131,10 @@ def _added_gold_color(x, y, ratio, palette):
 
 
 def mask_for_texture(name, original_image, scale, band_width):
-    """Return (L mask, RGBA gold overlay), clipped to final Faithful alpha.
+    """Return (L mask, RGBA gold overlay) derived from final Faithful artwork.
+
+    Model faces and door frames retain their alpha. Bars, chains and lanterns
+    gain only the explicit exterior gold stroke, matching the native VT method.
 
     scale is the ratio to vanilla textures: 2 means the 32x edition and 4 the
     64x edition. band_width is in final texture pixels. Defaults chosen by the
@@ -178,7 +160,7 @@ def mask_for_texture(name, original_image, scale, band_width):
     if source.size != expected_size:
         raise ValueError(f"{name}: expected final Faithful image {expected_size}, got {source.size}")
     if key in {"waxed_copper_bars", "waxed_copper_chain", "waxed_copper_door", "waxed_copper_lantern"}:
-        mask = _generated_icon_mask(source, band_width)
+        mask = _generated_icon_mask(source, band_width, outward=key != 'waxed_copper_door')
     else:
         mask = _resize_old_border(_seed_mask(template), source.size, ratio, band_width)
     for face in additional_face_coverage(key):
@@ -190,10 +172,11 @@ def mask_for_texture(name, original_image, scale, band_width):
     for y in range(source.height):
         for x in range(source.width):
             alpha = source_pixels[x, y][3]
-            if not mask_pixels[x, y] or not alpha:
+            exterior_stroke = key in {'waxed_copper_bars', 'waxed_copper_chain', 'waxed_copper_lantern'}
+            if not mask_pixels[x, y] or (not alpha and not exterior_stroke):
                 mask_pixels[x, y] = 0
                 continue
             old_value = template["rows"][y // ratio][x // ratio]
             rgb = tuple(palette[int(old_value)]) if old_value != "." else _added_gold_color(x, y, ratio, palette)
-            gold_pixels[x, y] = (*rgb, alpha)
+            gold_pixels[x, y] = (*rgb, alpha or 255)
     return mask, gold

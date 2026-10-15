@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-15T18:52:28.609254+00:00",
+  "status": "pass",
+  "scope": "Independent offline source/pixel/alpha/JSON/overlay checks; not a visual in-game acceptance.",
+  "repo": "visual-copper",
+  "dist": "visual-copper/dist",
+  "source_files_unchanged": true,
+  "changed_source_paths": [],
+  "mask_script_sha256": "12722b3f58a5e6b7c3e6a3dd46cad15537536f9b28a1f685d40da2c88ebc7f7e",
+  "independent_uv_footprint_source_sha256": "39b3fe5c23ac5105fad888f47729fa0fca90a0c035a89a5d86aed9257146a88e",
+  "independent_uv_face_ring_checks": 6912,
+  "texture_instances_checked": 1162,
+  "texture_instances_by_resolution": {
+    "32": 581,
+    "64": 581
+  },
+  "distinct_family_texture_instances": 726,
+  "packages": [
+    {
+      "resolution": 16,
+      "archive_sha256": "c2513471a8333317943c4d8fef15c376fbc4055b251a7c2eec85f975e9d2a025",
+      "versions": [
+        {
+          "version": "1.21.9",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.10",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.11",
+          "format": [
+            75,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "f2fcc93a762fb869bb05e320370ea51e62dcc6f5b6ffab2475a21935cef12a57",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.2",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.2",
+          "format": [
+            88,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.3",
+          "format": [
+            97,
+            1
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "995f546fdd492673392420c62aaba311e0acba1ff542205cf938a988f7544291",
+          "accepted_statue_json_count": 8
+        }
+      ],
+      "archive_identical_to_before_repair": true
+    },
+    {
+      "resolution": 32,
+      "archive_sha256": "b5237b1b61f2353f9e1168c0bacc967f1f53e1a36dab4a41d955bb795def2f73",
+      "versions": [
+        {
+          "version": "1.21.9",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.10",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.11",
+          "format": [
+            75,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.2",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.2",
+          "format": [
+            88,
+            0
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.3",
+          "format": [
+            97,
+            1
+          ],
+          "overlays": [
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
+          "accepted_statue_json_count": 8
+        }
+      ]
+    },
+    {
+      "resolution": 64,
+      "archive_sha256": "da3817dbbfb15f6418021e7ae12d0f05b528c9156425320a6d0e6f956b8135ff",
+      "versions": [
+        {
+          "version": "1.21.9",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "70b0a92616821e355e5537a665ec194b84c1ab9c8bb8fb753b9d15a1968fd375",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.10",
+          "format": [
+            69,
+            0
+          ],
+          "overlays": [],
+          "asset_count": 193,
+          "effective_assets_sha256": "70b0a92616821e355e5537a665ec194b84c1ab9c8bb8fb753b9d15a1968fd375",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "1.21.11",
+          "format": [
+            75,
+            0
+          ],
+          "overlays": [
+            "copper_1_21_11"
+          ],
+          "asset_count": 193,
+          "effective_assets_sha256": "eac1f89e1503609cc9a98fe628c637c396b106442f38b3e763a3be4350fcea3e",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_1_21_11",
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.1",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_1_21_11",
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.1.2",
+          "format": [
+            84,
+            0
+          ],
+          "overlays": [
+            "copper_1_21_11",
+            "copper_26_1"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "6a0e13a9beaecc702368468757dffe24bf1fdfa02bec5b340848f2fcd250bf4c",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.2",
+          "format": [
+            88,
+            0
+          ],
+          "overlays": [
+            "copper_1_21_11",
+            "copper_26_1",
+            "copper_26_2"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "d58d8a519efab869d061a8f71e6504edb1d751d5aad4065e9c83e3532abd849c",
+          "accepted_statue_json_count": 8
+        },
+        {
+          "version": "26.3",
+          "format": [
+            97,
+            1
+          ],
+          "overlays": [
+            "copper_1_21_11",
+            "copper_26_1",
+            "copper_26_2"
+          ],
+          "asset_count": 194,
+          "effective_assets_sha256": "d58d8a519efab869d061a8f71e6504edb1d751d5aad4065e9c83e3532abd849c",
+          "accepted_statue_json_count": 8
+        }
+      ]
+    }
+  ],
+  "failure_count": 0,
+  "failures": []
+}

@@ -4,7 +4,7 @@ This repository contains TQNL's full 32x tweaks compilation with the approved Vi
 
 ## Full merged 32x compilation
 
-**[Download TQNL Faithful Vanilla Tweaks.zip](https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/TQNL-Faithful-Vanilla-Tweaks-32x-merged-copper-v3).** This is the same merged pack installed locally: all existing compilation tweaks, the complete updated 32x copper item textures, corrected copper golem statue models and approved wax borders around every antenna pole face. Its original name, icon and description are retained.
+**[Download TQNL Faithful Vanilla Tweaks.zip](https://github.com/TQNL/TQNL-Faithful-Vanilla-Tweaks/releases/tag/TQNL-Faithful-Vanilla-Tweaks-32x-merged-copper-v3).** The full compilation includes the updated 32x copper item textures and corrected copper golem statue models. Wax borders are rebuilt from the original Faithful artwork, with consistent chain, lantern and bar outlines and complete borders on lightning rods, statue faces and chest latches. Its original name, icon and description are retained.
 
 The pack retains its earlier Minecraft 1.21 compatibility and adds the corrected copper resources for **1.21.9 through 26.3** using overlays. Its metadata spans resource formats **34 through 97.1**. Copper assets were checked for all eight completed releases, with native reader checks at 1.21.9, 1.21.11 and 26.3. Other compilation tweaks are inherited; this does not claim fresh visual verification of all those tweaks on every 26.x client. See [the merged-pack check record](visual-copper/docs/merged-compilation-verification.json).
 
@@ -30,7 +30,9 @@ Adds a gold wax border to copper **items**, with the corrected native copper gol
 
 The combined packs cover **1.21.9, 1.21.10, 1.21.11, 26.1, 26.1.1, 26.1.2, 26.2 and 26.3** through format overlays; 1.21.9 and 1.21.10 share format 69.0. Individual-version V3 releases have been retired. Support stops at 26.3 / format 97.1 and is not a promise for future clients.
 
-The approved 32x/64x update frames **every antenna pole face** with wax, matching the cube above it while retaining a copper centre. Band width is one pixel at 32x and two pixels at 64x.
+Copper golem statues keep their selected inventory pose and use the correct waxed textures, orientation and position in either hand and on shelves. This also fixes their model conflicts with 3D Items.
+
+The 32x/64x wax borders start from pinned original Faithful textures. Chains, lanterns and bars follow Vanilla Tweaks' exterior-outline method, retaining the copper artwork and enclosed holes. Lightning rods, chest latches and statue faces receive complete wax boundaries, including every antenna pole face. Band width is one pixel at 32x and two pixels at 64x, narrowed on tiny faces.
 
 ### Installation
 
@@ -38,11 +40,17 @@ The approved 32x/64x update frames **every antenna pole face** with wax, matchin
 2. Enable it above your other resource packs.
 3. For 32x/64x, use it above the matching [official Faithful pack](https://faithfulpack.net/downloads) for a consistent world. The full Faithful pack is not bundled or required for the add-on to load.
 
-All new edition builds have offline texture, model and overlay checks. **The owner reviewed and approved the antenna-border update.** No new automated Minecraft visual matrix was run. The 16x rendering resources are byte-identical to the previously accepted exact-release fixes; their packaged metadata has been checked separately. See [verification and design](visual-copper/docs/design-and-verification.md).
+Both Faithful editions received a targeted native Minecraft **26.3** review: 72 inventory renders per edition covering all four oxidation stages and all four statue poses, plus 12 rotated lightning rods per edition. Offline checks cover 1,162 texture instances, 6,912 exposed UV borders and the native pack readers for all eight supported releases. This is a wax review; the full historical per-release visual matrix was not repeated. The 16x pack and all item model/pose/orientation JSON are unchanged. See [the review record](visual-copper/docs/wax-review-verification.json) and [verification and design](visual-copper/docs/design-and-verification.md).
 
 The root compilation selects the same approved 32x copper resources through `overlay_copper_items` and the small `overlay_copper_items_26_1` renderer overlay. The other tweaks retain their existing resource files and overlay declarations; they were not newly tested for 26.x. The standalone ZIPs remain available for users who want only the copper add-on.
 
-![Offline texture preview, not a Minecraft screenshot](visual-copper/docs/previews/texture-contact-sheet.png)
+### 32x
+
+![32x native inventory preview](visual-copper/docs/previews/inventory-32x.png)
+
+### 64x
+
+![64x native inventory preview](visual-copper/docs/previews/inventory-64x.png)
 
 ## Sources and credit
 

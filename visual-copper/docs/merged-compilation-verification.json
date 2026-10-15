@@ -1,9 +1,37 @@
 {
-  "original_sha256": "79522b49931f03961a5c997036ec6dabafcaf080c56aa47620b76d5a84dce346",
-  "approved_source_sha256": "72f78c9c51ba8abfcf9fe190fe040e56db138003ea610f187bfdad495635fc15",
-  "merged_sha256": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
-  "original_files_preserved_byte_for_byte_except_pack_metadata": 936,
-  "added_files": 201,
+  "previous_merged_sha256": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
+  "merged_sha256": "4c2a13ea77dbbd0780704455d55094db1aa4fffffc729dbbd47b78089e239163",
+  "approved_source_sha256": "528afc4c0ba81dd0d4ce0658f66818fa32a3d492437ae060db66c4b85491550f",
+  "files": 1138,
+  "all_non_copper_files_byte_identical": true,
+  "changed_paths": [
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_copper_bars.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_copper_chain.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_copper_chest.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_copper_golem_statue.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_copper_lantern.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_copper_bars.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_copper_chain.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_copper_chest.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_copper_golem_statue.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_copper_lantern.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_exposed_lightning_rod.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_lightning_rod.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_copper_bars.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_copper_chain.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_copper_chest.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_copper_golem_statue.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_copper_lantern.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_oxidized_lightning_rod.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_copper_bars.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_copper_chain.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_copper_chest.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_copper_golem_statue.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_copper_lantern.png",
+    "overlay_copper_items/assets/minecraft/textures/item/waxed_weathered_lightning_rod.png",
+    "source-provenance.json"
+  ],
+  "compilation_icon_description_and_pack_metadata_unchanged": true,
   "older_format_resource_maps_unchanged": [
     34,
     35,
@@ -41,7 +69,6 @@
     67,
     68
   ],
-  "minecraft_window_or_world_started": false,
   "checks": [
     {
       "version": "1.21.9",
@@ -49,7 +76,8 @@
         69,
         0
       ],
-      "approved_copper_assets": 193,
+      "copper_assets": 193,
+      "copper_resource_tree_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
       "full_asset_count": 926,
       "selected_overlays": [
         "overlay_34_69",
@@ -67,7 +95,7 @@
         "overlay_34_74",
         "overlay_copper_items"
       ],
-      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+      "full_asset_tree_sha256": "1a7628339906e33a19d73fba917575bd2a5dff71b96c24287dad97589e4247f6"
     },
     {
       "version": "1.21.10",
@@ -75,7 +103,8 @@
         69,
         0
       ],
-      "approved_copper_assets": 193,
+      "copper_assets": 193,
+      "copper_resource_tree_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
       "full_asset_count": 926,
       "selected_overlays": [
         "overlay_34_69",
@@ -93,7 +122,7 @@
         "overlay_34_74",
         "overlay_copper_items"
       ],
-      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+      "full_asset_tree_sha256": "1a7628339906e33a19d73fba917575bd2a5dff71b96c24287dad97589e4247f6"
     },
     {
       "version": "1.21.11",
@@ -101,7 +130,8 @@
         75,
         0
       ],
-      "approved_copper_assets": 193,
+      "copper_assets": 193,
+      "copper_resource_tree_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3",
       "full_asset_count": 926,
       "selected_overlays": [
         "overlay_42",
@@ -114,7 +144,7 @@
         "overlay_70",
         "overlay_copper_items"
       ],
-      "full_asset_tree_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+      "full_asset_tree_sha256": "1a7628339906e33a19d73fba917575bd2a5dff71b96c24287dad97589e4247f6"
     },
     {
       "version": "26.1",
@@ -122,13 +152,14 @@
         84,
         0
       ],
-      "approved_copper_assets": 194,
+      "copper_assets": 194,
+      "copper_resource_tree_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
       "full_asset_count": 806,
       "selected_overlays": [
         "overlay_copper_items",
         "overlay_copper_items_26_1"
       ],
-      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "full_asset_tree_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965"
     },
     {
       "version": "26.1.1",
@@ -136,13 +167,14 @@
         84,
         0
       ],
-      "approved_copper_assets": 194,
+      "copper_assets": 194,
+      "copper_resource_tree_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
       "full_asset_count": 806,
       "selected_overlays": [
         "overlay_copper_items",
         "overlay_copper_items_26_1"
       ],
-      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "full_asset_tree_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965"
     },
     {
       "version": "26.1.2",
@@ -150,13 +182,14 @@
         84,
         0
       ],
-      "approved_copper_assets": 194,
+      "copper_assets": 194,
+      "copper_resource_tree_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
       "full_asset_count": 806,
       "selected_overlays": [
         "overlay_copper_items",
         "overlay_copper_items_26_1"
       ],
-      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "full_asset_tree_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965"
     },
     {
       "version": "26.2",
@@ -164,13 +197,14 @@
         88,
         0
       ],
-      "approved_copper_assets": 194,
+      "copper_assets": 194,
+      "copper_resource_tree_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
       "full_asset_count": 806,
       "selected_overlays": [
         "overlay_copper_items",
         "overlay_copper_items_26_1"
       ],
-      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "full_asset_tree_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965"
     },
     {
       "version": "26.3",
@@ -178,16 +212,20 @@
         97,
         1
       ],
-      "approved_copper_assets": 194,
+      "copper_assets": 194,
+      "copper_resource_tree_sha256": "0824bf1f26389afd801703c9eeba7d2ce69ffe6b795e967d96c43af627261299",
       "full_asset_count": 806,
       "selected_overlays": [
         "overlay_copper_items",
         "overlay_copper_items_26_1"
       ],
-      "full_asset_tree_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "full_asset_tree_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965"
     }
   ],
-  "native_checks": [
+  "minecraft_started_by_this_integration": false,
+  "visual_test_scope": "The byte-identical standalone copper resources received a targeted 26.3 wax review; unrelated compilation tweaks were not newly tested.",
+  "artifact": "dist/TQNL Faithful Vanilla Tweaks.zip",
+  "native_reader_checks": [
     {
       "client_version": "1.21.9",
       "client_jar_sha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
@@ -198,7 +236,8 @@
       "compatibility": "COMPATIBLE",
       "selected_overlays": "[overlay_34_69, overlay_42, overlay_42_69, overlay_46, overlay_53, overlay_57, overlay_58, overlay_58_69, overlay_63, overlay_63_69, overlay_69, overlay_69_69, overlay_34_74, overlay_copper_items]",
       "asset_count": 926,
-      "effective_assets_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+      "effective_assets_sha256": "1a7628339906e33a19d73fba917575bd2a5dff71b96c24287dad97589e4247f6",
+      "copper_resources_match_standalone": true
     },
     {
       "client_version": "1.21.11",
@@ -210,7 +249,8 @@
       "compatibility": "COMPATIBLE",
       "selected_overlays": "[overlay_42, overlay_46, overlay_53, overlay_57, overlay_58, overlay_63, overlay_69, overlay_70, overlay_copper_items]",
       "asset_count": 926,
-      "effective_assets_sha256": "fca0726d1f85ee0809d6676b03d8e45b20c99a883548fa5db7b60b87a1a8305c"
+      "effective_assets_sha256": "1a7628339906e33a19d73fba917575bd2a5dff71b96c24287dad97589e4247f6",
+      "copper_resources_match_standalone": true
     },
     {
       "client_version": "26.3",
@@ -222,15 +262,10 @@
       "compatibility": "COMPATIBLE",
       "selected_overlays": "[overlay_copper_items, overlay_copper_items_26_1]",
       "asset_count": 806,
-      "effective_assets_sha256": "3e10283aef21c7d8e54f724179cabaaad501b8eb71eb01376a1ab67137176eb5"
+      "effective_assets_sha256": "3ca6206ce66eba05f93443f8d0fb2ac6b5950ed4785168c5eed2690aa879d965",
+      "copper_resources_match_standalone": true
     }
   ],
-  "installed_sha256_verified": "94ac4a8ed0511ac3780498422f4c1562f8861c5d78bebaf326b66f912eba4043",
-  "removed_standalone_copper_packs": [
-    "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
-    "VisualWaxedCopperItems-32x-V3-approved-mc-1.21.9-to-26.3.zip",
-    "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip"
-  ],
-  "blocked_removals": [],
-  "artifact": "dist/TQNL Faithful Vanilla Tweaks.zip"
+  "root_pack_files_match_archive": true,
+  "standalone_archives_rebuilt_byte_identical": true
 }

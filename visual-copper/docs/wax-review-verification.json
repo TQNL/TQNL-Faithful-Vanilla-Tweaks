@@ -1,0 +1,81 @@
+{
+  "source_policy": "Rebuilt all texture targets from pinned original Faithful 32x and 64x artwork; original source files unchanged.",
+  "reference": "Supplied original VT chain/lantern PNGs match retained originals byte-for-byte. The named VT ZIP was absent; retained VT sources and native client assets establish the outline method.",
+  "changes": [
+    "Exterior wax outline on chain, lantern and bars; original copper pixels and enclosed holes retained.",
+    "Complete rings on both lightning rod shaft UV strips and bottom cap.",
+    "Complete rings on 18 additional statue body, arm, leg and sole faces.",
+    "Complete chest latch thin-face edges, narrowed where space permits."
+  ],
+  "unchanged": "All item model/pose/orientation JSON; accepted 16x pack; original Faithful source files.",
+  "offline": {
+    "source_and_pixel_texture_instances": 1162,
+    "independent_exposed_uv_border_checks": 6912,
+    "native_pack_reader_checks": 24,
+    "versions": [
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "report": "validation/validation-report.json"
+  },
+  "visual": {
+    "minecraft": "26.3",
+    "backend": "OpenGL",
+    "editions": [
+      32,
+      64
+    ],
+    "inventory_renders_per_edition": 72,
+    "includes_all_four_oxidation_stages_and_four_statue_poses": true,
+    "rotated_rods_per_edition": 12,
+    "rod_views": "Four azimuths and two pitched end views, unoxidized and oxidized.",
+    "exhaustive_per_release_visual_matrix_repeated": false,
+    "captures": [
+      {
+        "file": "inventory-32x-panel1.png",
+        "sha256": "b6229ef4bbd6482054685efebc6be9741c3f48780804796b6c0ffbd3e018540a"
+      },
+      {
+        "file": "inventory-32x-panel2.png",
+        "sha256": "6cd9d50aa9b00d0946e6e8f8dc7d3e013c49f21718cb933d8493ddb012aef3fc"
+      },
+      {
+        "file": "inventory-64x-panel1.png",
+        "sha256": "558c1901ce4d6b4a9884fa7acc595a9b0b34f4c4981a0c6f247cbe2044dcaad3"
+      },
+      {
+        "file": "inventory-64x-panel2.png",
+        "sha256": "cfb6a713220d8c79bae0940c2393d91eef37dd32a6f9285465acba778a4bc8ef"
+      },
+      {
+        "file": "rods-32x.png",
+        "sha256": "463d0af074a6747eadc212ae0020fa67aade3bff96ed79e2ef95745ca0a48082"
+      },
+      {
+        "file": "rods-64x.png",
+        "sha256": "9d11874a579741765c059cd46d9aee43b18fc21b3135ba1ea1b418448eae003c"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "resolution": 32,
+      "filename": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "sha256": "528afc4c0ba81dd0d4ce0658f66818fa32a3d492437ae060db66c4b85491550f"
+    },
+    {
+      "resolution": 64,
+      "filename": "VisualWaxedCopperItems-64x-mc-1.21.9-to-26.3.zip",
+      "sha256": "abe9cffde9e2a5a96088cb528df3f3feb38d6676ac1e677e2dad226e3f56fcd1"
+    }
+  ],
+  "charts": "Only resolution labels; native item crop RGB unchanged.",
+  "temporary_world_and_profile_removed": true,
+  "scope_note": "Review was completed before publication. Remote release state is recorded separately."
+}

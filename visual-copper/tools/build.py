@@ -11,7 +11,7 @@ import zipfile
 from pathlib import Path
 
 from PIL import Image, ImageChops, ImageDraw
-from wax_masks import mask_for_texture
+from wax_masks import canonical_texture_name, mask_for_texture
 
 ROOT = Path(__file__).resolve().parents[1]
 FAMILIES = {'1.21.9': '1.21.10', '1.21.10': '1.21.10',
@@ -124,15 +124,23 @@ def derive_texture(name, data, mapping, source_root, resolution):
     result = original.copy()
     pixels, base, mask_pixels, gold_pixels = result.load(), original.load(), mask.load(), gold.load()
     count = 0
+    added_alpha = 0
+    exterior_stroke = canonical_texture_name(name) in {
+        'waxed_copper_bars', 'waxed_copper_chain', 'waxed_copper_lantern'}
     for y in range(result.height):
         for x in range(result.width):
             if mask_pixels[x, y]:
-                if base[x, y][3] == 0:
+                if base[x, y][3] == 0 and not exterior_stroke:
                     raise ValueError('Wax mask recolors a transparent pixel: ' + name)
-                pixels[x, y] = (*gold_pixels[x, y][:3], base[x, y][3])
+                if not base[x, y][3]:
+                    added_alpha += 1
+                pixels[x, y] = (*gold_pixels[x, y][:3], base[x, y][3] or gold_pixels[x, y][3])
                 count += 1
-    if result.getchannel('A').tobytes() != original.getchannel('A').tobytes():
+    if not exterior_stroke and result.getchannel('A').tobytes() != original.getchannel('A').tobytes():
         raise ValueError('Wax changed source alpha: ' + name)
+    if exterior_stroke and any(base[x, y][3] and pixels[x, y] != base[x, y]
+                              for y in range(result.height) for x in range(result.width)):
+        raise ValueError('Exterior wax stroke changed original Faithful copper: ' + name)
     if not count:
         raise ValueError('Empty wax mask: ' + name)
     output_bytes, original_bytes = result.tobytes(), original.tobytes()
@@ -144,7 +152,10 @@ def derive_texture(name, data, mapping, source_root, resolution):
         'path': name, 'source': mapping.get('native_source', 'custom native door UV composite'),
         'source_sha256': mapping.get('sha256'), 'dimensions': list(result.size),
         'wax_pixels': count, 'changed_pixels': changed,
-        'source_alpha_preserved_after_uv_mapping': True,
+        'source_alpha_preserved_after_uv_mapping': not bool(added_alpha),
+        'exterior_gold_pixels_added': added_alpha,
+        'original_opaque_pixels_preserved': exterior_stroke,
+        'outline_method': 'Exterior gold stroke, enclosed holes retained' if exterior_stroke else 'Inward wax on model face or door frame',
         'unmasked_prepared_source_pixels_identical': True,
         'pixel_equality_reference': 'Faithful source after the explicitly recorded VT UV preparation',
         'uv_crop': any(part in name for part in ('_stairs1', '_stairs2', '_trapdoor_side')),
@@ -202,7 +213,7 @@ def build_version(version, resolution, coverage, provenance):
         'Placed copper blocks and live golems are unchanged. No full Faithful pack is bundled.\n' +
         (f'Use above the matching official Faithful {resolution}x pack for a consistent world.\n'
          f'Wax bands: {1 if resolution == 32 else 2} pixels on ordinary faces, narrowed on tiny UV islands.\n'
-         'These new texture editions were checked offline; no Minecraft visual test was performed.\n'
+         'See the release documentation for the scope of source, UV and in-game visual checks.\n'
          if resolution > 16 else
          '16x rendering assets are identical to the previously accepted exact-release repair.\n') +
         '\nSources: https://vanillatweaks.net/ and https://faithfulpack.net/\n'
@@ -252,10 +263,15 @@ def combined(resolution, version_files):
         expected, _ = effective(version_files[version], FORMATS[version])
         if actual != expected:
             raise ValueError('Combined assets differ from exact-version pack: ' + version)
+    # Reviewed native screenshot icons distinguish the two Faithful editions.
+    # Icons affect pack presentation only; all validated resource maps above
+    # and the original 16x archive remain unchanged.
+    if resolution > 16:
+        files['pack.png'] = (ROOT / 'source/icons' / f'pack-{resolution}x.png').read_bytes()
     return files
 
 
-def archive(files, path):
+def archive(files, path, compression_level=None):
     path.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zip_file:
         for name in sorted(files, key=lambda n: tuple(n.split('/'))):
@@ -263,7 +279,7 @@ def archive(files, path):
             entry.create_system = 3
             entry.compress_type = zipfile.ZIP_DEFLATED
             entry.external_attr = 0o100644 << 16
-            zip_file.writestr(entry, files[name])
+            zip_file.writestr(entry, files[name], compresslevel=compression_level)
     with zipfile.ZipFile(path) as zip_file:
         if zip_file.testzip() or {n: zip_file.read(n) for n in zip_file.namelist()} != files:
             raise ValueError('ZIP readback failed')
@@ -306,7 +322,9 @@ def build():
         for target, files in [('1.21.9-to-26.3', packs['1.21.9-to-26.3'])]:
             filename = f'VisualWaxedCopperItems-{resolution}x-mc-{target}.zip'
             path = ROOT / 'dist' / filename
-            sha = archive(files, path)
+            # Preserve the accepted 16x archive, and reproduce the final
+            # reviewed 32x/64x release packaging at explicit compression 9.
+            sha = archive(files, path, compression_level=9 if resolution > 16 else None)
             checks = []
             for version in VERSIONS if target == '1.21.9-to-26.3' else (target,):
                 assets, selected = effective(files, FORMATS[version])
@@ -316,7 +334,7 @@ def build():
                               'sha256': sha, 'bytes': path.stat().st_size, 'files': len(files), 'checks': checks})
     preview({r: all_packs[r]['26.3'] for r in all_packs})
     report = {'schema_version': 1, 'minecraft_started': False,
-              'visual_status': '16x accepted assets inherited; 32x/64x texture editions have offline checks only.',
+              'visual_status': 'Offline build only. Targeted native Minecraft 26.3 wax review for the matching 32x/64x resources is recorded separately in docs/wax-review-verification.json; earlier accepted statue rendering is inherited.',
               'artifacts': artifacts, 'texture_checks': derivations}
     (ROOT / 'docs/build-verification.json').write_bytes(json_bytes(report))
     (ROOT / 'dist/SHA256SUMS.txt').write_text(''.join(f"{a['sha256']}  {a['filename']}\n" for a in artifacts), encoding='utf-8')

@@ -1152,6 +1152,204 @@
         ],
         "minimum_native_face_dimension": 2,
         "replace_existing_wax": true
+      },
+      {
+        "part": "body",
+        "side": "west",
+        "rect_native": [
+          0,
+          21,
+          6,
+          27
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "body",
+        "side": "north",
+        "rect_native": [
+          6,
+          21,
+          14,
+          27
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "body",
+        "side": "east",
+        "rect_native": [
+          14,
+          21,
+          20,
+          27
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "body",
+        "side": "south",
+        "rect_native": [
+          20,
+          21,
+          28,
+          27
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_arm",
+        "side": "north",
+        "rect_native": [
+          40,
+          20,
+          43,
+          30
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_arm",
+        "side": "south",
+        "rect_native": [
+          47,
+          20,
+          50,
+          30
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_arm",
+        "side": "north",
+        "rect_native": [
+          54,
+          20,
+          57,
+          30
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_arm",
+        "side": "south",
+        "rect_native": [
+          61,
+          20,
+          64,
+          30
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_leg",
+        "side": "west",
+        "rect_native": [
+          0,
+          31,
+          4,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_leg",
+        "side": "north",
+        "rect_native": [
+          4,
+          31,
+          8,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_leg",
+        "side": "east",
+        "rect_native": [
+          8,
+          31,
+          12,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_leg",
+        "side": "south",
+        "rect_native": [
+          12,
+          31,
+          16,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_leg",
+        "side": "west",
+        "rect_native": [
+          16,
+          31,
+          20,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_leg",
+        "side": "north",
+        "rect_native": [
+          20,
+          31,
+          24,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_leg",
+        "side": "east",
+        "rect_native": [
+          24,
+          31,
+          28,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_leg",
+        "side": "south",
+        "rect_native": [
+          28,
+          31,
+          32,
+          36
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "right_leg",
+        "side": "down",
+        "rect_native": [
+          8,
+          27,
+          12,
+          31
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "left_leg",
+        "side": "down",
+        "rect_native": [
+          24,
+          27,
+          28,
+          31
+        ],
+        "replace_existing_wax": true
       }
     ],
     "waxed_copper_chest": [
@@ -1210,6 +1408,41 @@
         ],
         "minimum_native_face_dimension": 1
       }
+    ],
+    "waxed_lightning_rod": [
+      {
+        "part": "shaft",
+        "side": "north_and_south",
+        "rect_native": [
+          2,
+          4,
+          4,
+          16
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "shaft",
+        "side": "east_and_west",
+        "rect_native": [
+          0,
+          4,
+          2,
+          16
+        ],
+        "replace_existing_wax": true
+      },
+      {
+        "part": "shaft",
+        "side": "down",
+        "rect_native": [
+          4,
+          0,
+          6,
+          2
+        ],
+        "replace_existing_wax": true
+      }
     ]
   },
   "native_atlas_dimensions": {
@@ -1225,7 +1458,11 @@
   "width_policy": {
     "default_32x": 1,
     "default_64x": 2,
-    "tiny_face_policy": "Clamp complete rings to floor((minimum pixel dimension - 1) / 2); if zero, use one edge accent",
+    "tiny_face_policy": "Complete ring narrowed to preserve copper where possible; minimum 1px, fully gold on a 2px-wide face at 32x",
     "16x": "Immutable accepted PNG bytes; this helper only handles 32x and 64x"
+  },
+  "sprite_outline_policy": {
+    "bars_chain_lantern": "Gold added outside original Faithful sprite, exterior-connected only; original copper and enclosed holes preserved",
+    "door": "Gold inward on existing outside frame; alpha and internal window preserved"
   }
 }

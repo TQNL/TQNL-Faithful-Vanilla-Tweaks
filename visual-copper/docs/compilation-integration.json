@@ -1,19 +1,17 @@
 {
-  "method": "Only copper item resources added in late-version overlays.",
+  "method": "Only copper overlays plus copper source provenance refreshed.",
   "checks": [
     {
-      "directory": "overlay_69",
-      "source_artifact": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
+      "directory": "overlay_copper_items",
       "assets": 193,
-      "effective_assets_sha256": "c3a8d8c67cd01c0ceb90d61d1fc88935529399fc7f9ce02e99881109137ba693"
+      "resource_tree_sha256": "e0a4d547bc5e4fd73f1a4d1cda5df538ef31513f5069084fc2988534f7c72ee3"
     },
     {
-      "directory": "overlay_copper_26",
-      "source_artifact": "VisualWaxedCopperItems-32x-mc-1.21.9-to-26.3.zip",
-      "assets": 194,
-      "effective_assets_sha256": "2ce44f52d5c156b818dbe53c3d566c498585931b3163bcf17acac5739cf9c64f"
+      "directory": "overlay_copper_items_26_1",
+      "assets": 5,
+      "resource_tree_sha256": "03807dbc63137e9b14098b5962c4b39cbabf3424b2dbb91e204f20177bc85039"
     }
   ],
   "other_compilation_assets_replaced": false,
-  "broader_compilation_visual_status": "Not tested in this pass."
+  "reference": "merged-compilation-verification.json"
 }
